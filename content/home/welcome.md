@@ -16,6 +16,9 @@ design:
   # Add custom styles
   css_style:
   css_class:
+
+# Activate this widget? true/false
+active: false
 ---
 
 <br>

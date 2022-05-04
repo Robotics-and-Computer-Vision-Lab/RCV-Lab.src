@@ -21,4 +21,7 @@ content:
 design:
   view: 3
   columns: '1'
+
+# Activate this widget? true/false
+active: false
 ---
