@@ -8,4 +8,6 @@ social:
     icon_pack: far
     icon: school
 superuser: false
+user_groups:
+  - Research Sequence
 ---
