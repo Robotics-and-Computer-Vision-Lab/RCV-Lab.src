@@ -7,7 +7,7 @@ weight: 40
 design:
   columns: '1'
 # Activate this widget? true/false
-active: false
+active: true
 ---
 
-{{% cta cta_link="./people/" cta_text="Meet the team →" %}}
+Lab Introduction
