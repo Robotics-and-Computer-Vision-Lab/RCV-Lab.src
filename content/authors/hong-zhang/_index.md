@@ -12,6 +12,8 @@ social:
     icon_pack: far
     icon: school
 superuser: false
+user_groups:
+  - Faculty
 ---
 I was a Professor in the [Department of Computing Science](http://www.cs.ualberta.ca/) at [the University of Alberta](http://www.ualberta.ca/). I received my BSc degree from [Northeastern University](http://www.northeastern.edu/) (USA) and my PhD from [Purdue University](http://www.purdue.edu/). After a year of post-doctoral training at the [University of Pennsylvania](http://www.upenn.edu/), I joined the U of A in 1988 where I currently hold an adjunct appointment.
 
