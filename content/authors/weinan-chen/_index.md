@@ -8,4 +8,6 @@ social:
     icon: IEEE
     link: https://ieeexplore.ieee.org/author/37086099846
 superuser: false
+user_groups:
+  - Postdoc
 ---
