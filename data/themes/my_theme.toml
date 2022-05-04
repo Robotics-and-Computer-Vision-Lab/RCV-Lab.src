@@ -1,0 +1,27 @@
+# Theme metadata
+name = "MyTheme"
+
+[light]
+  # Primary
+  primary = "rgb(0, 128, 128)"
+
+  # Menu
+  menu_primary = "rgb(0, 128, 128)"
+  menu_text = "#fff"
+  menu_text_active = "#ffeb3b"
+  menu_title = "#fff"
+
+[dark]
+  # Primary
+  primary = "rgb(255, 0, 60)"
+
+  # Menu
+  menu_primary = "#fcee0a"
+  menu_text = "#000"
+  menu_text_active = "#000"
+  menu_title = "#000"
+
+  # Backgrounds
+  background = "#000"
+  home_section_odd = "#000"
+  home_section_even = "#000"

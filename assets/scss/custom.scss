@@ -1,0 +1,59 @@
+.navbar {
+  height: 70px;
+  background: $sta-menu-primary;
+  box-shadow: 0 0.125rem 0.25rem 0 rgba(0, 0, 0, 0.05);
+  font-size: 20px;
+
+  // Remove Bootstrap's navbar v-padding and assign v-padding to logo separately to maximise logo size.
+  // Otherwise, Bootstrap's navbar v-padding causes issue with logo fitting within fixed 50px height bar in md-lg sizes.
+  padding: 0 1rem;
+
+  .nav-item {
+    // For z-index compatibility with logo on mobile layout, otherwise nav-item can't be clicked when logo present.
+    position: relative;
+  }
+  @include media-breakpoint-down(md) {
+    height: 50px;
+
+    .navbar-nav-scroll {
+      width: 100%;
+      overflow: hidden;
+
+      .navbar-nav {
+        overflow-x: auto;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+    }
+  }
+
+  .navbar-nav {
+    display: flex;
+
+    .nav-link {
+      color: rgba($sta-menu-text, 0.85);
+
+      &.active,
+      &:hover,
+      &:focus {
+        color: $sta-menu-text;
+      }
+
+      &.active {
+        font-weight: bold !important;
+        color: $sta-menu-text-active !important;
+      }
+    }
+  }
+
+  .dropdown-menu {
+    font-size: #{$sta-font-size-small}px;
+  }
+
+  // Note: dedicated `dropdown-item-active` class to prevent ScrollSpy removing `active` class from language chooser.
+  .dropdown-item.active,
+  .dropdown-item-active {
+    font-weight: bold;
+    color: $sta-menu-text-active !important;
+  }
+}
