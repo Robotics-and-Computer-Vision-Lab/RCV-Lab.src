@@ -1,6 +1,5 @@
 ---
 title: Hong Zhang
-avatar_filename: citations.jpg
 interests:
   - robotics
   - computer vision
@@ -9,8 +8,8 @@ social:
   - display:
       header: false
     link: https://eee.sustech.edu.cn/?view=%e5%bc%a0%e5%ae%8f&jsid=18
-    icon_pack: far
-    icon: school
+    icon_pack: ai
+    icon: google-scholar
 superuser: false
 user_groups:
   - Faculty
