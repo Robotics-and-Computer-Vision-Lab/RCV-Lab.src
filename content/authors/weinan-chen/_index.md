@@ -1,5 +1,6 @@
 ---
 title: Weinan Chen
+avatar_filename: avastar.jpg
 social:
   - display:
       header: false
