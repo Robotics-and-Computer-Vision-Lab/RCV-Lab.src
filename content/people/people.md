@@ -19,6 +19,9 @@ content:
     - Faculty
     - Research Sequence
     - Postdoctoral Researchers
+    - PhD Students
+    - Master Students
+    - Visiting Students
 design:
   show_interests: false
   show_role: true
