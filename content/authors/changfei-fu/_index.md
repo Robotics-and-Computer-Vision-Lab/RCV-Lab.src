@@ -5,7 +5,7 @@ social:
   - display:
       header: false
     link: https://github.com/Changfei-Fu
-    icon_pack: far
+    icon_pack: fab
     icon: github
 superuser: false
 user_groups:
