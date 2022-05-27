@@ -7,14 +7,14 @@ main:
   - name: People
     url: people
     weight: 10
-  - name: Research Highlights
-    url: research_highlights
+  - name: Research
+    url: research
     weight: 20
-  - name: Projects
-    url: projects
-    weight: 30
   - name: Publications
     url: publication
+    weight: 30
+  - name: Projects
+    url: projects
     weight: 40
   - name: News
     url: post
