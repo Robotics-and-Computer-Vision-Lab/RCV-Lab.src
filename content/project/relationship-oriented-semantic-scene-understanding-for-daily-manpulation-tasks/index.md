@@ -26,4 +26,4 @@ a joint work between SUSTech and HKUST
 
 ## Releated Publications
 
-[Relationship Oriented Semantic Scene Understanding](tmp) for Daily Manipulation Tasks (submitted to IROS 2022, under review)
+**[Relationship Oriented Semantic Scene Understanding for Daily Manipulation Tasks](<Relationship Oriented Semantic Scene Understanding for Daily Manipulation Tasks>)** (submitted to IROS 2022, under review)
