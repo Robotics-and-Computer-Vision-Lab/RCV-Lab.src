@@ -1,7 +1,7 @@
 ---
 title: Relationship Oriented Semantic Scene Understanding for Daily Manpulation Tasks
-subtitle: "Authors: Chao Tang, Jingwen Yu, Weinan Chen, Bingyi Xia and Hong
-  Zhang (a joint work between SUSTech and HKUST)"
+subtitle: Chao Tang, Jingwen Yu, Weinan Chen, Bingyi Xia and Hong Zhang (a joint
+  work between SUSTech and HKUST)
 date: 2022-06-18T07:10:14.697Z
 draft: false
 featured: false
