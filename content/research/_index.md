@@ -1,5 +1,5 @@
 ---
-title: Research Highlights
+title: Research
 
 # Listing view
 view: compact
