@@ -1,6 +1,11 @@
 ---
 title: Research Highlights
 
-# Files in this folder represent a Widget Page
-type: widget_page
+# Listing view
+view: compact
+
+# Optional banner image (relative to `assets/media/` folder).
+banner:
+  caption: ''
+  image: ''
 ---
