@@ -11,3 +11,6 @@ superuser: false
 user_groups:
   - Postdoctoral Researchers
 ---
+
+[A publication]({{< relref "/publication/ceb-map-visual-localization-error-prediction-for-safe-navigation" >}})
+[A research]({{< relref "/project/relationship-oriented-semantic-scene-understanding-for-daily-manpulation-tasks" >}})
