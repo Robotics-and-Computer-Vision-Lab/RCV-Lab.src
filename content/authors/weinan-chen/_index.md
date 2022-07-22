@@ -12,5 +12,5 @@ user_groups:
   - Postdoctoral Researchers
 ---
 
-[A publication]({{< relref "/publication/ceb-map-visual-localization-error-prediction-for-safe-navigation/_index.md" >}})
-[A research]({{< relref "/project/relationship-oriented-semantic-scene-understanding-for-daily-manpulation-tasks/_index.md" >}})
+[A publication]({{< relref "/publication/ceb-map-visual-localization-error-prediction-for-safe-navigation" >}})
+[A research]({{< relref "/research/relationship-oriented-semantic-scene-understanding-for-daily-manpulation-tasks" >}})
