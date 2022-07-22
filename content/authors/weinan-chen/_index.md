@@ -14,3 +14,5 @@ user_groups:
 
 [A publication]({{< relref "/publication/ceb-map-visual-localization-error-prediction-for-safe-navigation" >}})
 [A research]({{< relref "/research/relationship-oriented-semantic-scene-understanding-for-daily-manpulation-tasks" >}})
+
+{{<relativelink "/research/relationship-oriented-semantic-scene-understanding-for-daily-manpulation-tasks" >}}
