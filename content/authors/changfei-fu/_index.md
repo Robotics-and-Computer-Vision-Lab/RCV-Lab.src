@@ -7,6 +7,11 @@ social:
     link: https://github.com/Changfei-Fu
     icon_pack: fab
     icon: github
+  - display:
+      header: false
+    link: https://github.com/Changfei-Fu
+    icon: github
+    icon_pack: fas
 superuser: false
 user_groups:
   - Master Students
