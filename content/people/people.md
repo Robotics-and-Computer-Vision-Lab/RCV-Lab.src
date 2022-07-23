@@ -17,14 +17,11 @@ content:
   #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
   user_groups:
     - Faculty
-    - Research Sequence
-    - Postdoctoral Researchers
-    - PhD Students
-    - Master Students
-    - Visiting Students
-    - Former Members
+    - Students
+    - Alumni
 design:
-  show_interests: false
-  show_role: true
+  show_interests: true
+  show_role: false
   show_social: true
+  show_organizations: true
 ---

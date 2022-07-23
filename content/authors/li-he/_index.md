@@ -1,5 +1,6 @@
 ---
 title: Li He
+weight: 2
 social:
   - display:
       header: false
@@ -8,5 +9,5 @@ social:
     icon: google-scholar
 superuser: false
 user_groups:
-  - Research Sequence
+  - Faculty
 ---

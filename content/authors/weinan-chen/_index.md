@@ -1,5 +1,6 @@
 ---
 title: Weinan Chen
+weight: 3
 avatar_filename: avatar.jpg
 social:
   - display:
@@ -9,7 +10,7 @@ social:
     link: https://ieeexplore.ieee.org/author/37086099846
 superuser: false
 user_groups:
-  - Postdoctoral Researchers
+  - Faculty
 ---
 
 ## Recent Publications

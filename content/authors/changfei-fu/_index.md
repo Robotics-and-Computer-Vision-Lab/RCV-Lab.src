@@ -12,13 +12,11 @@ social:
     icon_pack: fab
     link: https://twitter.com/GeorgeCushen
 
-#   - icon: envelope   # email
-#     icon_pack: fas
-#     link: 
-#   - icon: linkedin 
-#     icon_pack: fab
-#     link: 
-superuser: false
+interests:
+  - robotics
+  - computer vision
+  - image processin
+
 user_groups:
-  - Master Students
+  - Students
 ---
