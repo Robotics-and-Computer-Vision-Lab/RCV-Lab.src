@@ -1,0 +1,10 @@
+{{ $peek := .Site.GetPage (.Get 0) }}
+<a href="{{ $peek.RelPermalink }}" alt="{{ $peek.Title | markdownify }}" class="peek">
+    <div class="font-small section-subheading article-title mb-0 mt-0">
+        <a href="{{ $peek.RelPermalink }}" alt="{{ $peek.Params.title | markdownify }}">{{$peek.Params.title}}</a>
+    </div>
+
+    <div class="stream-meta article-metadata">
+        {{ delimit $peek.Params.authors ", " }}
+    </div>
+</a>

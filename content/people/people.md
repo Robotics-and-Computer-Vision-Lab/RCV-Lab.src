@@ -22,6 +22,7 @@ content:
     - PhD Students
     - Master Students
     - Visiting Students
+    - Former Members
 design:
   show_interests: false
   show_role: true

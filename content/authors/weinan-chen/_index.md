@@ -12,7 +12,6 @@ user_groups:
   - Postdoctoral Researchers
 ---
 
-[A publication]({{< relref "/publication/ceb-map-visual-localization-error-prediction-for-safe-navigation" >}})
-[A research]({{< relref "/research/relationship-oriented-semantic-scene-understanding-for-daily-manpulation-tasks" >}})
-
-{{<relativelink "/research/relationship-oriented-semantic-scene-understanding-for-daily-manpulation-tasks" >}}
+## Recent Publications
+- {{<peek_research "/research/relationship-oriented-semantic-scene-understanding-for-daily-manpulation-tasks" >}}
+- {{<peek_publication "/publication/condition-invariant-and-compact-visual-place-description-by-convolutional-autoencoder" >}}
