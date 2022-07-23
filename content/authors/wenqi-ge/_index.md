@@ -3,7 +3,7 @@ title: Winky Ge
 # avatar_filename: avatar.jpg
 social:
   - icon: blog
-    icon_pack: fab
+    icon_pack: fas
     link: http://lania77.com/
   - icon_pack: fab
     icon: github

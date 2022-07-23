@@ -13,9 +13,9 @@ social:
     link: https://twitter.com/red0orange1
 
 interests:
-  - robotics
-  - computer vision
-  - image processin
+  - Robot Manipulation
+  - Visual SLAM
+  - Computer Vision
 
 user_groups:
   - Students
