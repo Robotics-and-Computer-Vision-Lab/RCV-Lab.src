@@ -3,7 +3,7 @@ title: Dehao Huang
 social:
   - icon: envelope 
     icon_pack: fas
-    link: huangdehao919@gmail.com
+    link: mailto:huangdehao919@gmail.com
   - icon: graduation-cap 
     icon_pack: fas
     link: https://scholar.google.com/citations?user=AESnhwIAAAAJ
