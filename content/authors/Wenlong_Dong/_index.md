@@ -12,7 +12,7 @@ social:
     link: https://github.com/wlongdong
 
 user_groups:
-  - <Faculty or Students>
+  - Visiting Scholar
 ---
 ### About Me
 Your description(name, type of study, year, contact, etc.)

@@ -12,7 +12,7 @@ social:
     link: https://www.linkedin.com/in/selinawan/
 
 user_groups:
-  - Students
+  - Visiting Scholar
 ---
 ### About Me
 I am a undergraduate visiting research student at Prof. Hong Zhang's group in 2022. Then, I am going back to Canada to continue my junior year in Engineering Science at the University of Toronto, pursuing a major in robotics engineering and a minor in artificial intelligence engineering. Feel free to reach out to me via email or LinkedIn for any potential collaborations.

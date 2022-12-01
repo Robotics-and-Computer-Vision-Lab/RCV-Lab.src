@@ -9,7 +9,7 @@ social:
     link: https://github.com/GCChen97
 
 user_groups:
-  - Students
+  - Visiting Scholar
 ---
 ### About Me
 I am a MSE student in Biomimetric and Intelligent Robotics Lab (BIRL) at Guangdong University of Technology, supervised by Prof. Hong Zhang, since 9/2020. Currently, I am a visiting student at Southern University of Science and Technology.

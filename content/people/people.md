@@ -19,6 +19,7 @@ content:
     - Faculty
     - Students
     - Visiting Scholar
+    - Robots
 design:
   show_interests: true
   show_role: false
