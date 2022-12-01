@@ -1,5 +1,5 @@
 ---
-title: 陈广诚 (Guangcheng Chen)
+title: Guangcheng Chen
 social:
   - icon: envelope 
     icon_pack: fas
