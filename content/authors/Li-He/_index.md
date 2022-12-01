@@ -11,13 +11,15 @@ user_groups:
 ### Biography
 Dr. Li He is currently a Research Associate Professor in the Department of Electronic and Electrical Engineering at Southern University of Science and Technology (SUSTech). Prior to joining SUSTech, he was an Associate Professor in the School of Electromechanical Engineering, Guangdong University of Technology. He is a recipient of the Pearl River Talent Recruitment Program of Guangdong, and Shenzhen Peacock Plan (Type C). He is an Associate Editor/ Guest Managing Editor of Computers & Electrical Engineering, and an Associate Editor of IEEE Access. He served as a committee member for ICRA, ROBIO and WRC SARA. Dr. He has more than 30 publications on high-rank venues such as TIP, TCYB, PR, IROS and ICRA. He has individually chaired more than 6 grants of over 3 million RMB, including 2 National Grants. Dr. He’s research interests include machine learning, computer vision, large-scale data clustering, LiDAR navigation and SLAM. 
 
-**Education**:
+**Education**
+
 2008-2014, Ph.D., Dept. of Automation, Northwestern Polytechnical University, China
 2010-2011, Joint Ph.D., Dept. of Computing Science, University of Alberta, Canada
 2008-2014, M.S., Dept. of Automation, Northwestern Polytechnical University, China
 2008-2014, B.S., Dept. of Automation, Northwestern Polytechnical University, China
 
 **Internship Experience**
+
 2021-present, Research Associate Professor, Dept. of Electrical and Electronic Engineering, Southern University of Science and Technology, China
 2018-2021, Associate Professor, School of Electromechanical Engineering, Guangdong University of Technology, China
 2017-2018, Assistant Professor, School of Electromechanical Engineering, Guangdong University of Technology, China
@@ -37,6 +39,7 @@ Dr. Li He is currently a Research Associate Professor in the Department of Elect
 - Li He and Hong Zhang. Kernel K-means Sampling for Nystrom Approximation. IEEE Transactions on Image Processing, Volume 27, Issue 5, May 2018, pp. 2108-2120.
 - Li He, Nilanjan Ray and Hong Zhang. Error Bound of Nystrom-approximated NCut Eigenvectors and Its Application to Training Size Selection. Neurocomputing, 2017, Vol. 239, May: 130-142.
 - Li He and Hong Zhang. Iterative Ensemble Normalized Cuts. Pattern Recognition, 2016, Vol. 52, April: 274-286.
+
 **SLAM**
 - Li He, Xiaolong Wang, and Hong Zhang. M2DP: A novel 3D point cloud descriptor and its application in loop closure detection. In Intelligent Robots and Systems (IROS), 2016 IEEE/RSJ International Conference on, pp. 231-237. IEEE, 2016.
 - Weinan Chen, Lei Zhu, Xubin Lin, Yisheng Guan, Li He and Hong Zhang. Dynamic Strategy of Keyframe Selection with PD Controller for VSLAM Systems. IEEE/ASME Transactions on Mechatronics, to appear.
