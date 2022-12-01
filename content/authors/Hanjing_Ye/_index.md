@@ -1,5 +1,5 @@
 ---
-title: <Hanjing Ye>
+title: Hanjing Ye
 social:
   - icon: envelope 
     icon_pack: fas

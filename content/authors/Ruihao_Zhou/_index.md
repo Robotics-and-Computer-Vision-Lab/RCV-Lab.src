@@ -1,5 +1,5 @@
 ---
-title: <Ruihao Zhou>
+title: Ruihao Zhou
 social:
   - icon: envelope 
     icon_pack: fas
