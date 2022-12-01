@@ -3,7 +3,7 @@ title: Bingxi Liu
 social:
   - icon: envelope 
     icon_pack: fas
-    link: mailto: binuxliu@gmail.com
+    link: mailto:binuxliu@gmail.com
   - icon: graduation-cap 
     icon_pack: fas
     link: https://scholar.google.com/citations?user=T2_7muEAAAAJ
