@@ -22,7 +22,7 @@ content:
         position: right
         color: '#666'
         brightness: 0.7
-        media: home_slides/home.jpg
+        media: home_slides/home_1.jpg
     - title: 👋 Welcome to RCV Lab
     #   content: Fill
       align: center
@@ -30,5 +30,29 @@ content:
         position: right
         color: '#666'
         brightness: 0.7
-        media: home_slides/husky.jpg
+        media: home_slides/home_2.jpg
+    - title: 👋 Welcome to RCV Lab
+    #   content: Fill
+      align: center
+      background:
+        position: right
+        color: '#666'
+        brightness: 0.7
+        media: home_slides/home_3.jpg
+    - title: 👋 Welcome to RCV Lab
+    #   content: Fill
+      align: center
+      background:
+        position: right
+        color: '#666'
+        brightness: 0.7
+        media: home_slides/home_4.jpg
+    - title: 👋 Welcome to RCV Lab
+    #   content: Fill
+      align: center
+      background:
+        position: right
+        color: '#666'
+        brightness: 0.7
+        media: home_slides/home_5.jpg
 ---
