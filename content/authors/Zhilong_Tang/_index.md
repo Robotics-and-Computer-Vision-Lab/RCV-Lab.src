@@ -18,6 +18,8 @@ user_groups:
 I am a M.S.E student in Shenzhen Key Laboratory of Robotics and Computer Vision under the direction of Prof. Hong Zhang at Southern University of Science and Technology since 09/2020. I received my B.S. degree at Southern University of Science and Technology. My research My research focuses on robotic simultaneous localization and mapping (SLAM). 
 
 ### Research
+![research](authors_research/zhilong_tang.png "Research Introduction")
+
 My research interests focus on robot lidar SLAM, including:
 1. Lidar odometry 
 2. Lidar place recognition

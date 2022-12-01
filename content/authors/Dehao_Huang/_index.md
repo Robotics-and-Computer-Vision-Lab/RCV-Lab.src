@@ -10,6 +10,9 @@ social:
   - icon_pack: fab
     icon: github
     link: https://github.com/red0orange
+  - icon_pack: fab
+    icon: twitter
+    link: https://twitter.com/red0orange1
 
 user_groups:
   - Students

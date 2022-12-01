@@ -10,6 +10,9 @@ social:
   - icon_pack: fab
     icon: github
     link: https://github.com/jarvisyjw
+  - icon_pack: fab
+    icon: twitter
+    link: https://twitter.com/jingwYu
 
 user_groups:
   - Students

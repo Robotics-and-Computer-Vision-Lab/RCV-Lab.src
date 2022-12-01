@@ -21,6 +21,9 @@ I am a visiting student with the Department of Electronic and Electrical Enginee
 
 My research interests include LiDAR SLAM and place Recognition.
 
+### Publications
+- Ruihao Zhou, Li He, Hong Zhang, Xubin Lin, Yisheng Guan. "NDD: A 3D Point Cloud Descriptor Based on Normal Distribution for Loop Closure Detection", Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems, 2022.
+
 
 
 

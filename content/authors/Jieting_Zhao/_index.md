@@ -10,6 +10,9 @@ social:
   - icon_pack: fab
     icon: github
     link: https://github.com/zhaojieting
+  - icon_pack: fab
+    icon: house
+    link: https://jietingzhao.com/
 
 user_groups:
   - Students

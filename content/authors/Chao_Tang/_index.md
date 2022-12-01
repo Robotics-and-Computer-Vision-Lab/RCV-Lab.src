@@ -10,6 +10,9 @@ social:
   - icon_pack: fab
     icon: github
     link: https://github.com/mkt1412
+  - icon_pack: fab
+    icon: twitter
+    link: https://twitter.com/njtangchao96
 
 user_groups:
   - Students

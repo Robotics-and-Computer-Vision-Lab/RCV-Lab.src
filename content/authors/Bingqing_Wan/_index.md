@@ -7,6 +7,9 @@ social:
   - icon_pack: fab
     icon: github
     link: https://github.com/Selina22
+  - icon_pack: fab
+    icon: linkedin
+    link: https://www.linkedin.com/in/selinawan/
 
 user_groups:
   - Students

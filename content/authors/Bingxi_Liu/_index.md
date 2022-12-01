@@ -10,6 +10,9 @@ social:
   - icon_pack: fab
     icon: github
     link: https://github.com/BinuxLiu
+  - icon_pack: fab
+    icon: house
+    link: https://binuxliu.github.io/
 
 user_groups:
   - Students
