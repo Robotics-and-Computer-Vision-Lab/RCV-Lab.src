@@ -8,7 +8,7 @@ social:
     icon_pack: fas
   - icon_pack: fab
     icon: github
-    link: <https://github.com/zhouruihao1001>
+    link: https://github.com/zhouruihao1001
 
 user_groups:
   - Students
