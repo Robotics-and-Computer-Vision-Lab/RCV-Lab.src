@@ -18,5 +18,7 @@ user_groups:
 I am a MSE student in Robotics and Computer Vision Lab under the direction of Prof. Hong Zhang at SUSTech since 09/2021. I received the B.E. degree in information engineering from the China University of Mining and Technology (Beijing), in 06/2022. My research focuses on people orientation estimation at limited FOV for person following robot.
 
 ### Research
+{{< youtube kE9N_hsJ5XU >}}
+
 People following is the basic function of many service robots.
 What I am doing now is trying to improve the accuracy of the orientation estimation algorithm under limited human observation, which is very critical for people following robot.

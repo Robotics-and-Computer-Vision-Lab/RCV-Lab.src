@@ -18,6 +18,7 @@ user_groups:
 I'm working toward the M.S. degree in electronic science and technology with the Department of Electronic and Electrical Engineering, Southern University of Science and Technology since 2021. I received the B.S. degree in transportation engineering from Zhejiang University in 2019. My research interests include scene change detection, long-term visual simultaneous localization and mapping(SLAM).
 
 ### Research
+![research](authors_research/jiaming_zheng.png "Research Introduction")
 My research interests focus on long-term semantic SLAM in changing environment.
 
 Image cited from Changing-SLAM[1]

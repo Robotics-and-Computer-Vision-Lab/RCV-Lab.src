@@ -1,5 +1,5 @@
 ---
-title: Jingwen YU
+title: Jingwen Yu
 social:
   - icon: envelope 
     icon_pack: fas
@@ -21,6 +21,7 @@ I am currently a Ph.D. student with Robotics and Computer Vision Lab and [Intell
 I received my B.E degree (Magna Cum Laude) in information engineering from Southern University of Science and  Technology, in 06/2021. My research focuses on the localization and mapping of mobile robots. 
 
 ### Research
+![research](authors_research/jingwen_yu.gif "Research Introduction")
 
 Currently my research interests focus on long-term visual localization in dynamic and changing indoor environments. Specifically, I am focusing on developing a long-term visual localization system on a quadruped robot.
 

@@ -18,6 +18,8 @@ user_groups:
 I'm Li Wen, a VER student in Southern University of Science and Technology since August 2022. I graduated from Guangdong University of Technology with an undergraduate degree, and continued to pursue a master's degree here. My major is mechanical engineering, and my research direction is lidar slam, mainly focusing on point cloud registration.
 
 ### Research
+![research](authors_research/wen_li.png "Research Introduction")
+
 The goal of point cloud registration is to find the rigid transformation parameters(rotation matrix and translation vector) which best aligns the point cloud X to Y.
 At present, my research is focused on efficient and accurate registration methods, which are based on vehicle-borne lidar and are mainly aimed at point clouds with large scenes and high overlapping rate.
 

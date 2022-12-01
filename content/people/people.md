@@ -18,7 +18,7 @@ content:
   user_groups:
     - Faculty
     - Students
-    - Alumni
+    - Visiting Scholar
 design:
   show_interests: true
   show_role: false

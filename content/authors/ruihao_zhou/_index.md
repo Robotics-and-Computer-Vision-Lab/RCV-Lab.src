@@ -17,6 +17,8 @@ user_groups:
 I am a visiting student with the Department of Electronic and Electrical Engineering, Southern University of Science and Technology, Shenzhen, China. I received the B.E. degree from Guangdong university of Technology, China, in 2020. I'm currently pursuing his MS. degree at Guangdong university of Technology. 
 
 ### Research
+![research](authors_research/ruihao_zhou.png "Research Introduction")
+
 My research interests include LiDAR SLAM and place Recognition.
 
 

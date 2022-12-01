@@ -18,6 +18,8 @@ user_groups:
 Your description(name, type of study, year, contact, etc.)
 
 ### Research
+![research](authors_research/wenlong_dong.png "Research Introduction")
+
 A picture/video that illustrates/explains your research (The picture or video should be named "research" and uploaded as an email attachment). 
 
 A text section that describes your research.
