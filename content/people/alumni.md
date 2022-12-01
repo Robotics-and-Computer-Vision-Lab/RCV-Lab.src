@@ -3,11 +3,11 @@ title:
 subtitle:
 widget: blank
 headless: true
-weight: 40
+weight: 90
 design:
   columns: '1'
 # Activate this widget? true/false
 active: true
 ---
-# Alumni
+## Alumni
 - Xinkai Jiang, ...
