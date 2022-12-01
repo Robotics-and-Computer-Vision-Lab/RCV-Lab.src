@@ -1,21 +1,21 @@
 ---
-title: <Your name>
+title: Changfei Fu
 social:
   - icon: envelope 
     icon_pack: fas
-    link: mailto:<Your email link>
+    link: mailto:changfei_fu@foxmail.com
   - icon: graduation-cap 
     icon_pack: fas
-    link: <Your google-scholar link>
+    link: https://scholar.google.com/citations?user=tADlL1UAAAAJ&hl=en
   - icon_pack: fab
     icon: github
-    link: <Your github link>
+    link: https://github.com/Changfei-Fu
 
 user_groups:
-  - <Faculty or Students>
+  - Students
 ---
 ### About Me
-Changfei Fu received her B.S. degree in Electronic and Information Engineering from CUMT, China University of Mining and Technology in 2020. He was a recipient  of the first class scholarship at CUMT and the excellent award with a bronze medal of the international Robotic Competition Robomaster2018, and the first class award in Robomaster2018. He like basketball and singing. He began to play basketball from when he was a primary school student. Changfei Fu's research interest is in robotic vision and navigation, especially those algorithms that can make a robot run in real-world.
+Changfei Fu received his B.S. degree in Electronic and Information Engineering from CUMT, China University of Mining and Technology in 2020. He was a recipient  of the first class scholarship at CUMT and the excellent award with a bronze medal of the international Robotic Competition Robomaster2018, and the first class award in Robomaster2018. He like basketball and singing. He began to play basketball from when he was a primary school student. Changfei Fu's research interest is in robotic vision and navigation, especially those algorithms that can make a robot run in real-world.
 
 ### Research
 {{< youtube bMMvqL4aALk >}}

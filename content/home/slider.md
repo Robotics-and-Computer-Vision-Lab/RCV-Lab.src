@@ -15,20 +15,20 @@ design:
 
 content:
   slides:
-    - title: 👋 Welcome to RVNL
+    - title: 👋 Welcome to RCV Lab
     #   content: Fill
       align: center
       background:
         position: right
         color: '#666'
         brightness: 0.7
-        media: home.jpg
-    - title: 👋 Welcome to RVNL
+        media: home_slides/home.jpg
+    - title: 👋 Welcome to RCV Lab
     #   content: Fill
       align: center
       background:
         position: right
         color: '#666'
         brightness: 0.7
-        media: husky.jpg
+        media: home_slides/husky.jpg
 ---
