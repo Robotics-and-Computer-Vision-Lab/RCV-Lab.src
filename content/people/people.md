@@ -18,7 +18,7 @@ content:
   user_groups:
     - Faculty
     - Students
-    - Visiting Scholar
+    - Visiting Scholars
     - Robots
 design:
   show_interests: true
