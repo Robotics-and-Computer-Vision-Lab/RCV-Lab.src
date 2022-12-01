@@ -13,9 +13,9 @@ main:
   - name: Publications
     url: publication
     weight: 30
-  - name: Projects
-    url: project
-    weight: 40
+  # - name: Projects
+  #   url: project
+  #   weight: 40
   - name: News
     url: post
     weight: 50
