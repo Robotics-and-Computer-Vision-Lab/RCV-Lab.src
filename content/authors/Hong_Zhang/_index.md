@@ -1,10 +1,6 @@
 ---
 title: Hong Zhang
 weight: 1
-interests:
-  - robotics
-  - computer vision
-  - image processin
 social:
   - display:
       header: false

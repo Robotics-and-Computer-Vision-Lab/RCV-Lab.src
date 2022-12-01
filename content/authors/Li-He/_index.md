@@ -4,21 +4,9 @@ social:
   - icon: envelope 
     icon_pack: fas
     link: mailto:hel@sustech.edu.cn
-  - icon: graduation-cap 
-    icon_pack: fas
-    link: https://scholar.google.com/citations?user=AESnhwIAAAAJ
-  - icon_pack: fab
-    icon: github
-    link: https://github.com/red0orange
-  - icon_pack: fab
-    icon: twitter
-    link: https://twitter.com/red0orange1
-  - icon_pack: fab
-    icon: house
-    link: https://red0orange.plus/
 
 user_groups:
-  - Students
+  - Faculty
 ---
 ### Biography
 Dr. Li He is currently a Research Associate Professor in the Department of Electronic and Electrical Engineering at Southern University of Science and Technology (SUSTech). Prior to joining SUSTech, he was an Associate Professor in the School of Electromechanical Engineering, Guangdong University of Technology. He is a recipient of the Pearl River Talent Recruitment Program of Guangdong, and Shenzhen Peacock Plan (Type C). He is an Associate Editor/ Guest Managing Editor of Computers & Electrical Engineering, and an Associate Editor of IEEE Access. He served as a committee member for ICRA, ROBIO and WRC SARA. Dr. He has more than 30 publications on high-rank venues such as TIP, TCYB, PR, IROS and ICRA. He has individually chaired more than 6 grants of over 3 million RMB, including 2 National Grants. Dr. He’s research interests include machine learning, computer vision, large-scale data clustering, LiDAR navigation and SLAM. 
