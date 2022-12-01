@@ -11,7 +11,7 @@ social:
     icon: github
     link: https://github.com/BinuxLiu
   - icon_pack: fab
-    icon: house
+    icon: blog
     link: https://binuxliu.github.io/
 
 user_groups:

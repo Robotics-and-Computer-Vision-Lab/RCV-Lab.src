@@ -13,6 +13,9 @@ social:
   - icon_pack: fab
     icon: twitter
     link: https://twitter.com/red0orange1
+  - icon_pack: fab
+    icon: house
+    link: https://red0orange.plus/
 
 user_groups:
   - Students
