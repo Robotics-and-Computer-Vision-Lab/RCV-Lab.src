@@ -21,6 +21,8 @@ In 2022.06, I received the Master's degree from Institute of Automation, Chinese
 In 2019.06, I received the B.Eng. degree from China University of Mining and Technology.
 
 ### Research
+{{< youtube gzKeRzKIqJs >}}
+
 My research interests focus on visual place recognition and visual localization. 
 
 

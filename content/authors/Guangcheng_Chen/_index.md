@@ -18,6 +18,8 @@ user_groups:
 I am a MSE student in Biomimetric and Intelligent Robotics Lab (BIRL) at Guangdong University of Technology, supervised by Prof. Hong Zhang, since 9/2020. Currently, I am a visiting student at Southern University of Science and Technology.
 
 ### Research
+![research](authors_research/guangcheng_chen.gif "Research Introduction")
+
 My research interests are focused on polarimetric imaging, including:
 1. 3D reconstruction
 2. inverse rendering
