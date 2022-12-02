@@ -1,6 +1,6 @@
 ---
 title: Farzin Foroughi
-weight: 2
+weight: 3
 social:
   - icon: envelope 
     icon_pack: fas

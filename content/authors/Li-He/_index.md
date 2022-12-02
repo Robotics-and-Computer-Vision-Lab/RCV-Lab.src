@@ -5,6 +5,9 @@ social:
   - icon: envelope 
     icon_pack: fas
     link: mailto:hel@sustech.edu.cn
+  - icon: graduation-cap 
+    icon_pack: fas
+    link: https://scholar.google.com/citations?user=U3Ek_lUAAAAJ&hl=en
 
 user_groups:
   - Faculty

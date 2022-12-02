@@ -2,11 +2,12 @@
 title: Hong Zhang
 weight: 1
 social:
-  - display:
-      header: false
-    link: https://eee.sustech.edu.cn/?view=%e5%bc%a0%e5%ae%8f&jsid=18
-    icon_pack: ai
-    icon: google-scholar
+  - icon: envelope 
+    icon_pack: fas
+    link: mailto:hzhang@sustech.edu.cn
+  - icon: graduation-cap 
+    icon_pack: fas
+    link: https://scholar.google.com/citations?hl=en&user=J7UkpAIAAAAJ
 superuser: false
 user_groups:
   - Faculty
