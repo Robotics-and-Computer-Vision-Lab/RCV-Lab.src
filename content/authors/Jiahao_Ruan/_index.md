@@ -1,5 +1,11 @@
 ---
 title: Jiahao Ruan
+
+weight: 31
+role: Visiting Student
+user_groups:
+  - People
+
 social:
   - icon: envelope 
     icon_pack: fas
@@ -10,9 +16,6 @@ social:
   - icon_pack: fab
     icon: github
     link: https://github.com/JhRuan96
-
-user_groups:
-  - Visiting Scholars
 ---
 ### About Me
 I am a visiting student in Robotics and Computer Vision Lab at Southern University of Science and Technology since 03/2022. I am currently working toward the M.E. degree in  Mechanical Engineering with the School of Electro-Mechanical Engineering, Guangdong University of Technology, Guangzhou, China. My research include visual SLAM and robot localization.

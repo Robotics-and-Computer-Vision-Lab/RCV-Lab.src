@@ -1,5 +1,11 @@
 ---
 title: Wen Li
+
+weight: 31
+role: Visiting Student
+user_groups:
+  - People
+
 social:
   - icon: envelope 
     icon_pack: fas
@@ -10,9 +16,6 @@ social:
   - icon_pack: fab
     icon: github
     link: https://github.com/lidawenwenwen
-
-user_groups:
-  - Visiting Scholars
 ---
 ### About Me
 I'm Li Wen, a VER student in Southern University of Science and Technology since August 2022. I graduated from Guangdong University of Technology with an undergraduate degree, and continued to pursue a master's degree here. My major is mechanical engineering, and my research direction is lidar slam, mainly focusing on point cloud registration.

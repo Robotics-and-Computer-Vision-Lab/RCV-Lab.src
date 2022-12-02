@@ -1,5 +1,7 @@
 ---
 title: Chao Tang
+weight: 10
+role: Ph.D. Candidate
 social:
   - icon: envelope 
     icon_pack: fas
@@ -15,7 +17,7 @@ social:
     link: https://twitter.com/njtangchao96
 
 user_groups:
-  - Students
+  - People
 ---
 ### About Me
 My name is Chao Tang. I am currently a Ph.D. student under the supervision of Dr. Hong Zhang in Robotics and Computer Vision (RCV) Lab at Southern University of Science and Technology (SUSTech). Prior to joining SUSTech, I obtained my M.S. degree from Georgia Tech under the supervision of Dr. Patricio Vela. 

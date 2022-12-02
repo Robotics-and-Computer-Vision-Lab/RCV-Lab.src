@@ -1,5 +1,11 @@
 ---
 title: Ruihao Zhou
+
+weight: 31
+role: Visiting Student
+user_groups:
+  - People
+
 social:
   - icon: envelope 
     icon_pack: fas
@@ -9,9 +15,6 @@ social:
   - icon_pack: fab
     icon: github
     link: https://github.com/zhouruihao1001
-
-user_groups:
-  - Visiting Scholars
 ---
 ### About Me
 I am a visiting student with the Department of Electronic and Electrical Engineering, Southern University of Science and Technology, Shenzhen, China. I received the B.E. degree from Guangdong university of Technology, China, in 2020. I'm currently pursuing his MS. degree at Guangdong university of Technology. 

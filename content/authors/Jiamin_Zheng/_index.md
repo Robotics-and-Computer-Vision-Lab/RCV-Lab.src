@@ -1,5 +1,7 @@
 ---
 title: Jiamin Zheng
+weight: 20
+role: MS Students
 social:
   - icon: envelope 
     icon_pack: fas
@@ -12,7 +14,7 @@ social:
     link: https://github.com/JMamie
 
 user_groups:
-  - Students
+  - People
 ---
 ### About Me
 I'm working toward the M.S. degree in electronic science and technology with the Department of Electronic and Electrical Engineering, Southern University of Science and Technology since 2021. I received the B.S. degree in transportation engineering from Zhejiang University in 2019. My research interests include scene change detection, long-term visual simultaneous localization and mapping(SLAM).

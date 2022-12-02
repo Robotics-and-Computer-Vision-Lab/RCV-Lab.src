@@ -1,6 +1,7 @@
 ---
 title: Hong Zhang
 weight: 1
+role: Head of Laboratory of Robotics and Computer Vision
 social:
   - icon: envelope 
     icon_pack: fas
@@ -10,5 +11,5 @@ social:
     link: https://scholar.google.com/citations?hl=en&user=J7UkpAIAAAAJ
 superuser: false
 user_groups:
-  - Faculty
+  - People
 ---

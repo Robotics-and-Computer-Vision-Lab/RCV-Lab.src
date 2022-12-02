@@ -1,5 +1,7 @@
 ---
 title: Dehao Huang
+weight: 20
+role: Visiting Scholars
 social:
   - icon: envelope 
     icon_pack: fas
@@ -18,7 +20,7 @@ social:
     link: https://red0orange.plus/
 
 user_groups:
-  - Students
+  - People
 ---
 ### About Me
 I am a MSE student in Robotics and Computer Vision Lab under the direction of Prof. Hong Zhang at Southern University of Science and Technology since 09/2022. I received the B.E. degree in information engineering from the South China Normal University, in 06/2022. My research focuses on robotic visual perception.

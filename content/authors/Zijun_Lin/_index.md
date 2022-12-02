@@ -1,5 +1,7 @@
 ---
 title: Zijun Lin
+weight: 20
+role: MS Students
 social:
   - icon: envelope 
     icon_pack: fas
@@ -12,7 +14,7 @@ social:
     link: https://github.com/RedCarp0
 
 user_groups:
-  - Students
+  - People
 ---
 ### About Me
 I am a Postgraduate Student at Robotics and Computer Vision Lab, advised by Prof. Hong Zhang. Previously, I received my B.E. degree in Robotics from Southern University of Science and Technology, in 06/2022. My research interests includes Deep Reinforcement Learning and its application in robotics.

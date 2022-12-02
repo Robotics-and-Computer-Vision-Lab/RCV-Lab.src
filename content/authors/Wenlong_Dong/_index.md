@@ -1,5 +1,11 @@
 ---
 title: Wenlong Dong
+
+weight: 30
+role: Visiting Student
+user_groups:
+  - People
+
 social:
   - icon: envelope 
     icon_pack: fas
@@ -10,9 +16,6 @@ social:
   - icon_pack: fab
     icon: github
     link: https://github.com/wlongdong
-
-user_groups:
-  - Visiting Scholars
 ---
 ### About Me
 Your description(name, type of study, year, contact, etc.)

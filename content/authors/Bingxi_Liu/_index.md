@@ -1,5 +1,7 @@
 ---
 title: Bingxi Liu
+weight: 11
+role: Ph.D. Student
 social:
   - icon: envelope 
     icon_pack: fas
@@ -15,7 +17,7 @@ social:
     link: https://binuxliu.github.io/
 
 user_groups:
-  - Students
+  - People
 ---
 ### About Me
 

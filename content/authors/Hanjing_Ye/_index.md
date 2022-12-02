@@ -1,5 +1,7 @@
 ---
 title: Hanjing Ye
+weight: 11
+role: Ph.D. Student
 social:
   - icon: envelope 
     icon_pack: fas
@@ -12,7 +14,7 @@ social:
     link: https://github.com/MedlarTea
 
 user_groups:
-  - Students
+  - People
 ---
 ### About Me
 I am currently a Ph.D. student in Robotics and Computer Vision Lab under the direction of Prof. Hong Zhang at Southern University of Science and Technology since 2022.09. I received the B. Eng. degree and the Master degrees in the School of Electrical and Mechanical Engineering, Guangdong University of Technology in 2019 and 2021 respectively, supervised by Prof. Hong Zhang. From 2020.11 to 2022.09, I am a visiting student in the Department of Electronic and Electrical Engineering, Southern University of Science and Technology.

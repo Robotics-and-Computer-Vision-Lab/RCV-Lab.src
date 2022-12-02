@@ -1,5 +1,7 @@
 ---
 title: Jieting Zhao
+weight: 20
+role: MS Students
 social:
   - icon: envelope 
     icon_pack: fas
@@ -15,7 +17,7 @@ social:
     link: https://jietingzhao.com/
 
 user_groups:
-  - Students
+  - People
 ---
 ### About Me
 I am a MSE student in Robotics and Computer Vision Lab under the direction of Prof. Hong Zhang at SUSTech since 09/2021. I received the B.E. degree in information engineering from the China University of Mining and Technology (Beijing), in 06/2022. My research focuses on people orientation estimation at limited FOV for person following robot.

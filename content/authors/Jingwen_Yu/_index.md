@@ -1,5 +1,7 @@
 ---
 title: Jingwen Yu
+weight: 10
+role: Ph.D. Candidate
 social:
   - icon: envelope 
     icon_pack: fas
@@ -15,7 +17,7 @@ social:
     link: https://twitter.com/jingwYu
 
 user_groups:
-  - Students
+  - People
 ---
 ### About Me
 
