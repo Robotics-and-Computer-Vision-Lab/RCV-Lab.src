@@ -10,8 +10,8 @@ social:
   - icon_pack: fab
     icon: github
     link: https://github.com/BinuxLiu
-  - icon_pack: fab
-    icon: blog
+  - icon_pack: ai
+    icon: CV
     link: https://binuxliu.github.io/
 
 user_groups:

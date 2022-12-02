@@ -13,8 +13,8 @@ social:
   - icon_pack: fab
     icon: twitter
     link: https://twitter.com/red0orange1
-  - icon_pack: fab
-    icon: house
+  - icon_pack: ai
+    icon: CV
     link: https://red0orange.plus/
 
 user_groups:

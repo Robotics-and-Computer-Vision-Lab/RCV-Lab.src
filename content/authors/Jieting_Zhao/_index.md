@@ -10,8 +10,8 @@ social:
   - icon_pack: fab
     icon: github
     link: https://github.com/zhaojieting
-  - icon_pack: fab
-    icon: house
+  - icon_pack: ai
+    icon: CV
     link: https://jietingzhao.com/
 
 user_groups:
