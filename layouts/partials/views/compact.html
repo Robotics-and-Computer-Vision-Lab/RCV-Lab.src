@@ -37,10 +37,16 @@
       <a href="{{$link}}" {{ $target | safeHTMLAttr }}>{{ $item.Title }}</a>
     </div>
 
-    {{ with $publication }}
-    <div class="article-style">
-    {{.}}
-    </div>
+    {{ if eq $item.Type "publication" }}
+    {{ $publication }}
+    {{ end }}
+
+    {{ with $summary }}
+    <a href="{{ $link }}" {{ $target | safeHTMLAttr }} class="summary-link">
+      <div class="article-style">
+        {{.}}
+      </div>
+    </a>
     {{ end }}
 
     <div class="stream-meta article-metadata">
@@ -72,5 +78,15 @@
     </div>
     {{ end }}
 
+  </div>
+  <div class="ml-3">
+    {{ $resource := ($item.Resources.ByType "image").GetMatch "*featured*" }}
+    {{ with $resource }}
+    {{ $image := .Resize "150x webp" }}
+    <a href="{{$link}}" {{ $target | safeHTMLAttr }}>
+      <img src="{{ $image.RelPermalink }}" height="{{ $image.Height }}" width="{{ $image.Width }}"
+           alt="{{ $item.Title }}" loading="lazy">
+    </a>
+    {{end}}
   </div>
 </div>
