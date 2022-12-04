@@ -17,7 +17,7 @@ content:
 
   email: email
   address:
-    street: xuewan street
+    street: xueyuan street
     city: shenzhen
     postcode: '518000'
     country: Chinese

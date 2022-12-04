@@ -1,7 +1,7 @@
 ---
 title: Dehao Huang
 weight: 20
-role: Visiting Scholars
+role: MS Students
 social:
   - icon: envelope 
     icon_pack: fas

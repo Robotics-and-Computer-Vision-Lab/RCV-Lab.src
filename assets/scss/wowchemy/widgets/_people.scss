@@ -1,0 +1,64 @@
+/*************************************************
+ *  People widget
+ **************************************************/
+
+// @note People: 修改头像大小
+// @note People: 修改People页面的所有字体大小
+
+.people-title {
+    margin-top: 0px;
+    margin-bottom: 32px;
+}
+
+.people-person {
+    margin-top: 0px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.portrait-title {
+    margin-top: 0px;
+    margin-bottom: 30px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.people-avatar {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.people-widget {
+  font-size: 0.7rem;
+  text-align: center;
+}
+
+.people-widget .portrait-title h2 {
+  font-size: 1.0rem;
+//   font-weight:bold;
+}
+
+.people-widget .portrait-title h3 {
+  font-size: 0.65rem;
+  font-weight:bold;
+}
+
+.people-widget .avatar {
+  width: 80%;
+  max-width: 150px;
+  height: auto;
+}
+
+@media (min-width: 576px) {
+  .people-widget .col-sm-auto {
+    width: 30%;
+  }
+}
+@media (min-width: 992px) {
+  .people-widget .col-sm-auto {
+    width: 20%;
+  }
+}
