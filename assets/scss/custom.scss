@@ -57,3 +57,20 @@
     color: $sta-menu-text-active !important;
   }
 }
+
+// @note Devices页面样式
+.device-card {
+    // float: left;
+    margin: 10px 10px 10px 10px;
+    align-items: center;
+    width: calc(
+        33.3% - 20px
+    ); 
+}
+
+.device-container {
+    margin: 0px 0px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

@@ -8,23 +8,20 @@ main:
     url: test
     weight: 1
   - name: People
-    url: people
+    url: people_page
     weight: 10
   - name: Devices
-    url: device
+    url: device_page
     weight: 15
   - name: Research
-    url: research
+    url: research_page
     weight: 20
   - name: Publications
     url: publication
     weight: 30
-  # - name: Projects
-  #   url: project
-  #   weight: 40
   - name: News
-    url: post
+    url: new_page
     weight: 50
   - name: Contact
-    url: contact
+    url: contact_page
     weight: 60
