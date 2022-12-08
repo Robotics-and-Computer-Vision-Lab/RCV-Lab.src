@@ -6,9 +6,8 @@ date: 2022-06-18T07:10:14.697Z
 draft: false
 featured: false
 image:
-  filename: featured
+  caption: Photo by rawpixel on Unsplash
   focal_point: Smart
-  preview_only: false
 ---
 {{< toc hide_on="xl" >}}
 
