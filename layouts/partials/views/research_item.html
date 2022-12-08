@@ -1,46 +1,65 @@
 {{ $item := .item }}
-{{ $has_attachments := partial "functions/has_attachments" $item }}
+{{ $widget := .page }}
+{{ $index := .index }}
 
-{{ $link := $item.RelPermalink }}
-{{ $target := "" }}
-{{ if $item.Params.external_link }}
-  {{ $link = $item.Params.external_link }}
-  {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
+{{ $do_link := true }}
+{{ if $item.Params.external_link | or $item.Content }}
+  {{ $do_link = true }}
+{{ else }}
+  {{ $do_link = false }}
 {{ end }}
+
+{{ $link := $item.Params.external_link | default $item.RelPermalink }}
+{{ $target := .target }}
 
 {{/* Get summary. */}}
 {{ $summary := "" }}
 {{ if $item.Params.summary }}
   {{ $summary = $item.Params.summary | markdownify | emojify }}
 {{ else if $item.Params.abstract }}
-  {{ $summary = $item.Params.abstract | markdownify | emojify | truncate (site.Params.abstract_length | default 135) }}
+  {{ $summary = $item.Params.abstract | markdownify | emojify }}
 {{ else if $item.Summary }}
   {{ $summary = $item.Summary }}
 {{ end }}
 
-{{ $resource := ($item.Resources.ByType "image").GetMatch "*featured*" }}
+{{ $order := "" }}
+{{ if and ($widget.Params.design.flip_alt_rows | default true) (not (modBool $index 2)) }}
+  {{ $order = "order-md-2" }}
+{{ end }}
 
-<div class="card">
-  {{ with $resource }}
-  {{ $image := .Resize "550x webp" }}
-  <a href="{{ $link }}" {{ $target | safeHTMLAttr }} class="card-image hover-overlay">
-    <img src="{{ $image.RelPermalink }}" height="{{ $image.Height }}" width="{{ $image.Width }}"
-         alt="{{ $item.Title }}" class="img-responsive" loading="lazy">
-  </a>
-  {{ end }}
-  <div class="card-text">
-    <h4><a href="{{ $link }}" {{ $target | safeHTMLAttr }}>{{ $item.Title | markdownify | emojify }}</a></h4>
 
-    {{ with $summary }}
-    <div class="article-style">
-      <p>{{ . }}</p>
+<div class="col-lg-12 mb-5 view-showcase">
+  <div class="row align-items-center">
+
+    {{/* Text Part */}}
+    <div id="research-item-text" class="col-12 col-md-6">
+      <div class="section-subheading article-title mb-0 mt-0">
+        <div>
+        {{ $item.Title | markdownify | emojify }}
+        </div>
+      </div>
+
+      {{ with $summary }}
+      <div class="article-style" style="text-align: center;">
+        {{ . }}
+      </div>
+      {{ end }}
+
+      <div class="btn-links">
+        {{ partial "page_links" (dict "page" $item "is_list" 0) }}
+      </div>
     </div>
-    {{ end }}
 
-    {{ if $has_attachments }}
-    <div class="btn-links">
-      {{ partial "page_links" (dict "page" $item "is_list" 1) }}
+    {{/* Image Part */}}
+    <div id="research-item-image" class="col-12 col-md-6 order-first {{$order}}">
+      {{ $resource := ($item.Resources.ByType "image").GetMatch "*featured*" }}
+      {{ with $resource }}
+      {{ $image := .Resize "540x480 webp" }}
+      <div style="display: flex; justify-content: center;">
+        <img src="{{ $image.RelPermalink }}" height="{{ $image.Height }}" width="{{ $image.Width }}"
+             alt="{{ $item.Title }}" loading="lazy" style="object-fit: cover;">
+      </div>
+      {{end}}
     </div>
-    {{ end }}
   </div>
 </div>

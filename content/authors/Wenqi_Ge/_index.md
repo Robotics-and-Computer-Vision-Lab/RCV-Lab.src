@@ -1,7 +1,7 @@
 ---
 title: Winky Ge
 weight: 20
-role: MS Students
+role: M.Sc. Student
 social:
   - icon: envelope 
     icon_pack: fas

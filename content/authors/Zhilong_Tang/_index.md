@@ -1,7 +1,7 @@
 ---
 title: Zhilong Tang
 weight: 20
-role: M.S. Student
+role: M.Sc. Student
 social:
   - icon: envelope 
     icon_pack: fas

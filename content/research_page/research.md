@@ -4,7 +4,7 @@
 widget: research
 
 # This file represents a page section.
-headless: true
+headless: false
 
 # Order that this section appears on the page.
 weight: 65
@@ -13,12 +13,6 @@ title: Research
 subtitle: ''
 
 content:
-  # Page type to display. E.g. project.
-  page_type: project
-
-  # Default filter index (e.g. 0 corresponds to the first `filter_button` instance below).
-  filter_default: 0
-
   # Filter toolbar (optional).
   # Add or remove as many filters (`filter_button` instances) as you like.
   # To show all items, set `tag` to "*".
@@ -27,9 +21,9 @@ content:
   filter_button:
     - name: All
       tag: '*'
-    - name: Deep Learning
+    - name: simultaneous localization and mapping
       tag: Deep Learning
-    - name: Other
+    - name: semantic scene understanding
       tag: Demo
 
 design:

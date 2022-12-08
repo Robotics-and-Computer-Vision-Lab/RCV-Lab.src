@@ -1,7 +1,7 @@
 ---
 title: Changfei Fu
 weight: 20
-role: M.S. Student
+role: M.Eng. Student
 social:
   - icon: envelope 
     icon_pack: fas
