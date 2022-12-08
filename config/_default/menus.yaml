@@ -10,14 +10,11 @@ main:
   - name: Research
     url: "research_page"
     weight: 25
-  # - name: Research
-  #   url: 'research_page'
-  #   weight: 20
   - name: Publications
     url: 'publication'
     weight: 30
   - name: Equipments
-    url: 'device_page'
+    url: 'equipment_page'
     weight: 40
   - name: News
     url: 'new_page'

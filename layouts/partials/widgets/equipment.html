@@ -1,0 +1,70 @@
+{{/* Portfolio Widget */}}
+
+{{/* Initialise */}}
+{{ $ := .root }}
+{{ $st := .page }}
+{{ $page := .page }}
+{{ $columns := $st.Params.design.columns | default "1" }}
+{{ $view := "equipment_item" }}
+
+<div class="row justify-content-center" style="text-align: center">
+    <div class="col-12 ">
+        {{ with $page.Title }}
+        <div class="col-md-12 section-heading people-title">
+            <h1>{{ . | markdownify | emojify }}</h1>
+            {{ if $page.Params.subtitle }}<p>{{ $page.Params.subtitle | markdownify | emojify }}</p>{{ end }}
+        </div>
+        {{ end }}
+
+        {{ $filter_default := default (int $st.Params.content.filter_default) 0 }}
+
+        {{/* Parse default filter tag from front matter in the form of either tag name or CSS class name. */}}
+        {{ $default_filter_tag_raw := (index $st.Params.content.filter_button ($filter_default)).tag }}
+        {{ $default_filter_tag := printf ".js-id-%s" (replace $default_filter_tag_raw " " "-") }}
+        {{ if or (eq (substr $default_filter_tag_raw 0 1) "*") (eq (substr $default_filter_tag_raw 0 1) ".") }}
+            {{ $default_filter_tag = $default_filter_tag_raw }}
+        {{ end }}
+
+        <span class="d-none default-project-filter">{{ $default_filter_tag }}</span>
+
+        {{/* Only show filter buttons if there are multiple filters. */}}
+        {{ if gt (len $st.Params.content.filter_button) 1 }}
+        <div class="project-toolbar">
+            <div class="project-filters">
+            <div class="btn-toolbar d-flex justify-content-center">
+                <div class="btn-group flex-wrap">
+                {{ range $idx, $item := $st.Params.content.filter_button }}
+                    {{/* Parse filter tag from front matter in the form of either tag name or CSS class name. */}}
+                    {{ $data_filter := printf ".js-id-%s" (replace .tag " " "-") }}
+                    {{ if or (eq (substr .tag 0 1) "*") (eq (substr .tag 0 1) ".") }}
+                    {{ $data_filter = .tag }}
+                    {{ end }}
+                    <a href="#" data-filter="{{ $data_filter | safeHTMLAttr }}" class="btn btn-primary btn-lg{{ if eq $idx $filter_default }} active{{ end }}">{{ .name }}</a>
+                {{ end }}
+                </div>
+            </div>
+            </div>
+        </div>
+        {{ end }}
+
+    <div class="isotope projects-container js-layout-masonry">
+
+        {{/* Query */}}
+        {{ $query := where (where site.Pages "Section" "equipments") "Params.title" "!=" nil }}
+
+        {{/* Filters */}}
+        {{ with $st.Params.content.filters.tags }}
+        {{ $query = where $query "Params.tags" "intersect" . }}
+        {{ end }}
+
+        {{ range $index, $item := $query }}
+        {{ $js_tag_classes := delimit (apply (apply $item.Params.tags "replace" "." " " "-") "printf" "js-id-%s" ".") " " }}
+            <div class="project-card project-item isotope-item {{ $js_tag_classes | safeHTMLAttr }}">
+            {{ partial "functions/render_view" (dict "page" $st "item" . "view" "equipment_item" "index" $index) }}
+        </div>
+        {{end}}
+
+    </div>
+    </div>
+
+</div>
