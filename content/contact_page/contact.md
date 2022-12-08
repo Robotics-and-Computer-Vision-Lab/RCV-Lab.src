@@ -15,7 +15,7 @@ subtitle:
 content:
   # Contact (edit or remove options as required)
 
-  email: email
+  email: yantc@mail.sustech.edu.cn
   address:
     street: xueyuan street
     city: shenzhen
@@ -32,7 +32,7 @@ content:
   #    link: 'https://discourse.gohugo.io'
 
   # Automatically link email and phone or display as text?
-  autolink: false
+  autolink: true
 
 design:
   columns: '1'

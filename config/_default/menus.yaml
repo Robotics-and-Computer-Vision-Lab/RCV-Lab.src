@@ -4,24 +4,24 @@
 #   The weight parameter defines the order that the links will appear in.
 
 main:
-  - name: Test
-    url: test
-    weight: 1
-  - name: People
-    url: people_page
-    weight: 10
   - name: Research
-    url: research_page
-    weight: 20
+    url: "research_page"
+    weight: 25
+  - name: People
+    url: 'people_page'
+    weight: 10
+  # - name: Research
+  #   url: 'research_page'
+  #   weight: 20
   - name: Publications
-    url: publication
+    url: 'publication'
     weight: 30
   - name: Equipments
-    url: device_page
+    url: 'device_page'
     weight: 40
   - name: News
-    url: new_page
+    url: 'new_page'
     weight: 50
   - name: Contact
-    url: contact_page
+    url: 'contact_page'
     weight: 60
