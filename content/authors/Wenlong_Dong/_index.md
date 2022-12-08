@@ -18,14 +18,6 @@ social:
     link: https://github.com/wlongdong
 ---
 ### About Me
-Your description(name, type of study, year, contact, etc.)
-
-### Research
-![research](authors_research/wenlong_dong.jpg "Research Introduction")
-
-A picture/video that illustrates/explains your research (The picture or video should be named "research" and uploaded as an email attachment). 
-
-A text section that describes your research.
-
+I am an visiting student in electronic science and technology with the Department of Electronic and Electrical Engineering, Southern University of Science and Technology since 11/2022.I am currently studying Electronic Information Science and Technology at Dalian Maritime University. My research interests include autonomous driving, long-term visual simultaneous localization and mapping.
 
 

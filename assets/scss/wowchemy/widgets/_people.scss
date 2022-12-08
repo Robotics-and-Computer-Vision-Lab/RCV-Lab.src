@@ -37,12 +37,12 @@
 }
 
 .people-widget .portrait-title h2 {
-  font-size: 1.0rem;
+  font-size: 1.2rem;
 //   font-weight:bold;
 }
 
 .people-widget .portrait-title h3 {
-  font-size: 0.65rem;
+  font-size: 0.70rem;
   font-weight:bold;
 }
 
@@ -61,12 +61,4 @@
   .people-widget .col-sm-auto {
     width: 20%;
   }
-}
-
-.home-section.wg-people {
-  // Use `background` rather than `background-color` so it can support gradients in theme packs.
-  background: $sta-home-section-odd;
-  position: relative; // Required for component positioning within section.
-  padding: 10px 0 110px 0;
-  z-index: 0; // Explicit z-order otherwise `.home-section-bg` can be hidden by any `.home-section` background.
 }
