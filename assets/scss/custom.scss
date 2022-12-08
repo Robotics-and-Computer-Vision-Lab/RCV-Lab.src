@@ -61,12 +61,21 @@
 // @note Devices页面样式
 .device-card {
     // float: left;
-    margin: 10px 10px 10px 10px;
+    margin: 0px 0.8rem 0px 0.8rem;
     align-items: center;
     width: calc(
-        33.3% - 20px
+        33.3% - 1.6rem
     ); 
 }
+
+.device-card-content {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+// .device-card-title {
+//     height: 2.5rem;
+// }
 
 .device-container {
     margin: 0px 0px 0px 0px;
@@ -74,3 +83,4 @@
     flex-direction: row;
     flex-wrap: wrap;
 }
+

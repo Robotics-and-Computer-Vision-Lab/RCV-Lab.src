@@ -11,10 +11,10 @@
 }
 
 .people-person {
-    margin-top: 0px;
-    margin-bottom: 30px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 .portrait-title {
@@ -47,8 +47,8 @@
 }
 
 .people-widget .avatar {
-  width: 80%;
-  max-width: 150px;
+  width: 90%;
+  max-width: 250px;
   height: auto;
 }
 
@@ -61,4 +61,12 @@
   .people-widget .col-sm-auto {
     width: 20%;
   }
+}
+
+.home-section.wg-people {
+  // Use `background` rather than `background-color` so it can support gradients in theme packs.
+  background: $sta-home-section-odd;
+  position: relative; // Required for component positioning within section.
+  padding: 10px 0 110px 0;
+  z-index: 0; // Explicit z-order otherwise `.home-section-bg` can be hidden by any `.home-section` background.
 }

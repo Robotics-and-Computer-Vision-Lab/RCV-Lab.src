@@ -10,15 +10,15 @@ main:
   - name: People
     url: people_page
     weight: 10
-  - name: Devices
-    url: device_page
-    weight: 15
   - name: Research
     url: research_page
     weight: 20
   - name: Publications
     url: publication
     weight: 30
+  - name: Equipments
+    url: device_page
+    weight: 40
   - name: News
     url: new_page
     weight: 50

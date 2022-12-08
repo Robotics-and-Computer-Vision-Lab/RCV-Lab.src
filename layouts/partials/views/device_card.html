@@ -21,27 +21,13 @@
 
 {{ $resource := ($item.Resources.ByType "image").GetMatch "*featured*" }}
 
-<div class="card">
-  {{ with $resource }}
-  {{ $image := .Resize "550x webp" }}
-  <a href="{{ $link }}" {{ $target | safeHTMLAttr }} class="card-image hover-overlay">
+<div class="card device-card-content">
+    {{ with $resource }}
+    {{ $image := .Resize "550x webp" }}
     <img src="{{ $image.RelPermalink }}" height="{{ $image.Height }}" width="{{ $image.Width }}"
-         alt="{{ $item.Title }}" class="img-responsive" loading="lazy">
-  </a>
-  {{ end }}
-  <div class="card-text">
-    <h4><a href="{{ $link }}" {{ $target | safeHTMLAttr }}>{{ $item.Title | markdownify | emojify }}</a></h4>
-
-    {{ with $summary }}
-    <div class="article-style">
-      <p>{{ . }}</p>
-    </div>
+            alt="{{ $item.Title }}" class="img-responsive" loading="lazy">
     {{ end }}
-
-    {{ if $has_attachments }}
-    <div class="btn-links">
-      {{ partial "page_links" (dict "page" $item "is_list" 1) }}
+    <div class="device-card-title" style="height: 2.8rem; display: flex; justify-content: center; align-items: center;">
+        <strong>{{ $item.Title }}</strong>
     </div>
-    {{ end }}
-  </div>
 </div>
