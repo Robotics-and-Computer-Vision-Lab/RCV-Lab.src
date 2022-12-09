@@ -12,4 +12,4 @@ user_groups:
 
 ---
 ### About Me
-I am an UG student in Robotics and Computer Vision Lab under the direction of Prof. Hong Zhang at Southern University of Science and Technology since 2022.2. Now I am working on the application of nonlinear optimization on SLAM. My future research work will continue to explore in Computer vision field.
+I am an UG student in Robotics and Computer Vision Lab under the direction of Prof. Hong Zhang at Southern University of Science and Technology since 2022.2. Now I am working on the application of nonlinear optimization on SLAM. My future research work will continue to explore in computer vision field.

@@ -20,8 +20,8 @@ I am a MSE student in Robotics and Computer Vision Lab under the direction of Pr
 ![research](authors_research/wenqi_ge.png "Research Introduction")
 
 My research interests focus on visual scene understanding for indoor robotic manipulation, including mapping and planning: 
-1. scene understanding
+1. Scene understanding
 1. Object-level semantic mapping 
-2. indoor manipulation
+2. Indoor manipulation
 
 

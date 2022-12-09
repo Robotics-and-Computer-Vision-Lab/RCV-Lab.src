@@ -17,7 +17,7 @@ user_groups:
   - People
 ---
 ### About Me
-I am a M.S.E student in Shenzhen Key Laboratory of Robotics and Computer Vision under the direction of Prof. Hong Zhang at Southern University of Science and Technology since 09/2020. I received my B.S. degree at Southern University of Science and Technology. My research My research focuses on robotic simultaneous localization and mapping (SLAM). 
+I am a M.S.E student in Shenzhen Key Laboratory of Robotics and Computer Vision under the direction of Prof. Hong Zhang at Southern University of Science and Technology since 09/2020. I received my B.S. degree at Southern University of Science and Technology. My research focuses on robotic simultaneous localization and mapping (SLAM). 
 
 ### Research
 ![research](authors_research/zhilong_tang.jpg "Research Introduction (From Uy, M. A., & Lee, G. H. (2018). Pointnetvlad: Deep point cloud based retrieval for large-scale place recognition. In Proceedings of the IEEE conference on computer vision and pattern recognition (pp. 4470-4479).)")

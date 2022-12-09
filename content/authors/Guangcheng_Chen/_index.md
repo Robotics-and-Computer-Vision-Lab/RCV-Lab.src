@@ -20,10 +20,10 @@ I am a MSE student in Biomimetric and Intelligent Robotics Lab (BIRL) at Guangdo
 ### Research
 ![research](authors_research/guangcheng_chen.gif "Research Introduction")
 
-My research interests are focused on polarimetric imaging, including:
+My research interests focused on polarimetric imaging, including:
 1. 3D reconstruction
-2. inverse rendering
-3. transparent object segmentation 
+2. Inverse rendering
+3. Transparent object segmentation 
 
 ### Publications
 - Perspective Phase Angle for Polarimetric 3D Reconstruction [[Paper]](https://www.ecva.net/papers/eccv_2022/papers_ECCV/html/6667_ECCV_2022_paper.php) [[Code]](https://github.com/GCChen97/ppa4p3d). **Guangcheng Chen**, Li He, Yisheng Guan, Hong Zhang. ECCV 2022.

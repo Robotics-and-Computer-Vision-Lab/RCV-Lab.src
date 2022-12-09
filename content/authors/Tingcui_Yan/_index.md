@@ -12,6 +12,6 @@ user_groups:
 
 ---
 ### About Me
-I am an administrative assistant in Robotics and Computer Vision Lab under the direction of Prof. Hong Zhang at Southern University of Science and Technology since 07/2020. Main principal duties and responsibilities: Laboratory daily management, equipment procurement, financial accounting and reimbursement, daily administrative work, etc.
+I am an administrative assistant in Robotics and Computer Vision Lab under the direction of Prof. Hong Zhang at Southern University of Science and Technology since 07/2020. Principal duties and responsibilities: laboratory daily management, equipment procurement, financial accounting and reimbursement, daily administrative work, etc.
 
 

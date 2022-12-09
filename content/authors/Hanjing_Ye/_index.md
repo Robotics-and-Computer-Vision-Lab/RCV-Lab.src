@@ -25,7 +25,7 @@ My research focuses on Robotics, SLAM and Computer Vision. Recently, I am workin
 {{< youtube tO7XPJ_rPMA >}}
 It's an attachment video submitted to the ICRA 2023, which is about our newest research on Robot Person Following.
 
-Currently, my research focuses on Robot Person Following, which is a complicated system including multiple basic modules including detection, tracking, re-identification, control and so on. My ultimate goal is to make the robot like a puppy following its master forever.
+Currently, my research focuses on Robot Person Following, which is a complicated system including multiple basic modules including detection, tracking, re-identification, control and so on. My ultimate goal is to make the robot look like a puppy following its master forever.
 
 
 

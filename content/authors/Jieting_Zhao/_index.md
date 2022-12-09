@@ -26,4 +26,4 @@ I am a MSE student in Robotics and Computer Vision Lab under the direction of Pr
 {{< youtube kE9N_hsJ5XU >}}
 
 People following is the basic function of many service robots.
-What I am doing now is trying to improve the accuracy of the orientation estimation algorithm under limited human observation, which is very critical for people following robot.
+What I am doing now is trying to improve the accuracy of the orientation estimation algorithm under partial human observation, which is very critical for people following robot.

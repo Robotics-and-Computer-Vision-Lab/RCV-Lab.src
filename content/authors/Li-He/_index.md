@@ -19,15 +19,21 @@ Dr. Li He is currently a Research Associate Professor in the Department of Elect
 **Education**
 
 2008-2014, Ph.D., Dept. of Automation, Northwestern Polytechnical University, China
+
 2010-2011, Joint Ph.D., Dept. of Computing Science, University of Alberta, Canada
+
 2008-2014, M.S., Dept. of Automation, Northwestern Polytechnical University, China
+
 2008-2014, B.S., Dept. of Automation, Northwestern Polytechnical University, China
 
 **Internship Experience**
 
 2021-present, Research Associate Professor, Dept. of Electrical and Electronic Engineering, Southern University of Science and Technology, China
+
 2018-2021, Associate Professor, School of Electromechanical Engineering, Guangdong University of Technology, China
+
 2017-2018, Assistant Professor, School of Electromechanical Engineering, Guangdong University of Technology, China
+
 2014-2017, Postdoctoral Fellow, Dept. of Computing Science, University of Alberta, Canada
 
 ### Research
