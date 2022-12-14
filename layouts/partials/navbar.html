@@ -8,27 +8,30 @@
 {{/* Get site logo. */}}
 {{ $show_logo := site.Params.header.navbar.show_logo | default true }}
 {{ $has_logo := fileExists "assets/media/logo.png" | or (fileExists "assets/media/logo.svg") }}
-{{ $logo := "" }}
-{{ if $has_logo }}
-  {{ $logo = (partial "functions/get_logo" (dict "constraint" "max_height" "size" 70)) }}
-{{ end }}
+{{ $logo := (partial "functions/get_logo" (dict "constraint" "max_height" "size" 70)) }}
+{{ $ee_logo := (partial "functions/get_specify_logo" (dict "constraint" "max_height" "size" 70 "file_name" "ee-logo.png")) }}
+
 
 <header class="header--fixed">
   <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
-    <div class="container-xl">
 
-      {{if $show_logo}}
+    <div class="container-xl">
       <div class="d-none d-lg-inline-flex">
-        <div style="display: flex; width: 28rem">
-            {{- if $has_logo -}}
-                <div style="flex: 1; margin: auto;">
-                    <a href="{{ "https://www.sustech.edu.cn/" }}">
-                        <img src="{{ $logo.RelPermalink }}" alt="{{ site.Title }}"
-                        {{with site.Params.header.image.width}}width="{{.}}"{{end}}
-                        {{with site.Params.header.image.height}}height="{{.}}"{{end}}>
-                    </a>
-                </div>
-            {{- end -}}
+        <div style="display: flex; width: 32rem">
+            <div style="flex: 1; margin: auto;">
+                <a href="{{ "https://www.sustech.edu.cn/" }}">
+                    <img src="{{ $logo.RelPermalink }}" alt="{{ site.Title }}"
+                    {{with site.Params.header.image.width}}width="{{.}}"{{end}}
+                    {{with site.Params.header.image.height}}height="{{.}}"{{end}}>
+                </a>
+            </div>
+            <div style="flex: 1; margin: auto;">
+                <a href="{{ "https://www.sustech.edu.cn/" }}">
+                    <img src="{{ $ee_logo.RelPermalink }}" alt="{{ site.Title }}"
+                    {{with site.Params.header.image.width}}width="{{.}}"{{end}}
+                    {{with site.Params.header.image.height}}height="{{.}}"{{end}}>
+                </a>
+            </div>
             <div style="flex: 6; text-align: center;">
                 <a href="{{ "/" | relLangURL }}">
                     <h3>{{ site.Title }}<h3>
@@ -37,7 +40,9 @@
         </div>
 
       </div>
-      {{end}}
+    </div>
+
+    <div class="container-xl">
 
       {{ if site.Menus.main }}
       <button type="button" class="navbar-toggler" data-toggle="collapse"
@@ -46,23 +51,9 @@
       </button>
       {{ end }}
 
-      {{if $show_logo}}
-      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
-        <a class="navbar-brand" href="{{ "/" | relLangURL }}">
-        {{- if $has_logo -}}
-          <img src="{{ $logo.RelPermalink }}" alt="{{ site.Title }}"
-          {{with site.Params.header.image.width}}width="{{.}}"{{end}}
-          {{with site.Params.header.image.height}}height="{{.}}"{{end}}>
-        {{- else -}}
-          {{- site.Title -}}
-        {{- end -}}
-        </a>
-      </div>
-      {{end}}
-
       <!-- Collect the nav links, forms, and other content for toggling -->
       {{ $align_menu := site.Params.header.navbar.align | default "l" }}
-      <div class="navbar-collapse main-menu-item collapse {{ if eq $align_menu "c" }}justify-content-center{{ else if eq $align_menu "r" }}justify-content-end{{else}}justify-content-start{{ end }}" id="navbar-content">
+      <div class="navbar-collapse main-menu-item collapse justify-content-end" id="navbar-content">
 
         <!-- Left Nav Bar -->
         <ul class="navbar-nav d-md-inline-flex">
@@ -117,6 +108,7 @@
             {{ end }}
           {{end}}
 
+          {{/* @note nav jump link text */}}
           <li class="nav-item">
             <a class="nav-link {{if and $highlight_active_link $is_link_in_current_path }} active{{end}}" href="{{.URL | relLangURL}}"{{ if and $is_widget_page $is_same_page }} data-target="{{$hash}}"{{ end }}{{ ($.Scratch.Get "target") | safeHTMLAttr }}>
               {{- .Pre -}}<span>{{ .Name | safeHTML }}</span>{{- .Post -}}
