@@ -29,7 +29,7 @@
 {{ end }}
 
 {{ $publication := $item.Params.publication | markdownify | emojify }}
-{{ $date := $item.Date | time.Format (site.Params.publications.date_format | default "January, 2006") }}
+{{ $date := $item.Date | time.Format (site.Params.publications.date_format | default "2006") }}
 
 <div class="media stream-item view-compact">
   <div class="media-body" style="margin-bottom: 1rem;">

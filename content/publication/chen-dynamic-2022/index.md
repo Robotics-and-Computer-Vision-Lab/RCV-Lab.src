@@ -14,7 +14,7 @@ authors:
 tags: []
 categories: []
 date: '2022-02-01'
-lastmod: 2022-12-08T11:03:39+08:00
+lastmod: 2022-12-15T23:47:54+08:00
 featured: false
 draft: false
 
@@ -32,7 +32,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2022-12-08T03:03:39.479946Z'
+publishDate: '2022-12-15T15:47:54.272359Z'
 publication_types:
 - '2'
 abstract: Keyframe (KF) selection in a KF-based visual simultaneous localization and

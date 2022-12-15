@@ -16,7 +16,7 @@ authors:
 tags: []
 categories: []
 date: '2022-01-01'
-lastmod: 2022-12-08T11:03:39+08:00
+lastmod: 2022-12-15T23:47:54+08:00
 featured: false
 draft: false
 
@@ -34,7 +34,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2022-12-08T03:03:39.662597Z'
+publishDate: '2022-12-15T15:47:53.976439Z'
 publication_types:
 - '1'
 abstract: As the basic of visual tracking and mapping in VSLAM systems, keyframe selection

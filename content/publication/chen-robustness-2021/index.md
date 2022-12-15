@@ -16,7 +16,7 @@ authors:
 tags: []
 categories: []
 date: '2021-12-01'
-lastmod: 2022-12-08T11:03:39+08:00
+lastmod: 2022-12-15T23:47:54+08:00
 featured: false
 draft: false
 
@@ -34,7 +34,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2022-12-08T03:03:39.843025Z'
+publishDate: '2022-12-15T15:47:54.129896Z'
 publication_types:
 - '2'
 abstract: Robustness in on-road driving Visual Odometry (VO) systems is critical,
@@ -47,8 +47,8 @@ abstract: Robustness in on-road driving Visual Odometry (VO) systems is critical
   the self-driving application. Based on the characteristic of on-road self-driving
   motion and the DNN output, we propose a two-step optimization strategy with a variable
   degree of freedom (DoF), i.e., the use of two types of DoF representations during
-  pose estimation. Specifically, our two-step optimization operates according to the
-  residual of the optimization with the motion label classification from the pre-trained
+  pose estimation. Speciﬁcally, our two-step optimization operates according to the
+  residual of the optimization with the motion label classiﬁcation from the pre-trained
   DNN, as well as our proposed Motion Evaluation by essential matrix construction.
   Experimental results show that our framework obtains better tracking accuracy than
   the existing methods.
