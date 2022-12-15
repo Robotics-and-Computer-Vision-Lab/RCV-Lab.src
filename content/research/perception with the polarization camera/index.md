@@ -1,6 +1,7 @@
 ---
 title: Perception with Polarization Camera
-weight: 1
+summary: We propose the perspective phase angle (PPA) model as a superior alternative to the orthographic phase angle (OPA) model for accurately utilizing polarization phase angles in 3D reconstruction with perspective polarization cameras. The PPA model also allows planar surface estimation from single-view polarization images. This model serves as the foundation of polarimetric 3D reconstruction. <br> Our current research of polarization centers around exploiting geometric cues of polarization for non-lambertian surfaces reconstruction and recognition, aiming to create reliable perception system for mobile robot. Non-lambertian including glass and smooth metal are still challenging to traditional passive sensors like RGB cameras, and active sensors like depth cameras. Polarization cameras provides compensated information for traditional sensors. Polarization is one of property of light. Unpolarized light can be polarized by transmission, reflection, scattering and refraction and the polarization phase angle depends on the geometries and materials of the polarizers. Therefore, polarization information provides extra cues for recovering the geometries and materials of surfaces.
+weight: 4
 # subtitle: Chao Tang, Jingwen Yu, Weinan Chen, Bingyi Xia and Hong Zhang (a joint
 #   work between SUSTech and HKUST)
 date: 2022-06-18T07:10:14.697Z
@@ -11,4 +12,3 @@ image:
   focal_point: Smart
   preview_only: false
 ---
-Assistive robot systems have been developed to help people accomplish daily manipulation tasks especially for those with disabilities, where scene understanding plays a crucial role in enabling robots to interpret the surroundings and behave accordingly. However, most of the current systems approach scene understanding without considering the functional dependencies between objects. In this research, we augment an assistive robotic arm system with an end-to-end semantic relationship reasoning model. It incorporates functional relationships between pairs of objects for semantic scene understanding. To ensure good generalization to unseen objects and relationships, the model works in a category-agnostic manner.  We further demonstrate the effectiveness of our pipeline by integrating it with a symbolic planner for goal-oriented, multi-step manipulation task.

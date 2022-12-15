@@ -17,7 +17,7 @@ social:
     link: https://twitter.com/jingwYu
 
 user_groups:
-  - People
+  - Ph.D. Students
 ---
 ### About Me
 

@@ -21,7 +21,7 @@
   {{ $summary = $item.Summary }}
 {{ end }}
 
-<div class="card-simple view-card">
+<div class="card-simple view-card" id="equipment-item">
 
   {{ $resource := ($item.Resources.ByType "image").GetMatch "*featured*" }}
   {{ $anchor := $item.Params.image.focal_point | default "Smart" }}

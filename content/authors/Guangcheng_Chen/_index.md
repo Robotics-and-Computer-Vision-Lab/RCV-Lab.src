@@ -1,10 +1,10 @@
 ---
 title: Guangcheng Chen
 
-weight: 31
-role: Visiting Student
+weight: 20
+role: M.Sc. Student
 user_groups:
-  - People
+  - M.Sc. Students
 
 social:
   - icon: envelope 

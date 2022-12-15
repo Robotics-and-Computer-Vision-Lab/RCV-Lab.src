@@ -2,9 +2,9 @@
 title: Bingqing (Selina) Wan
 
 weight: 31
-role: Visiting Student
+role: Undergraduate Student
 user_groups:
-  - People
+  - Undergraduate Students
 
 social:
   - icon: envelope 

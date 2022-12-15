@@ -10,4 +10,7 @@ design:
 active: true
 ---
 ## Alumni
-- Xinkai Jiang, ...
+#### Post-Doctoral Fellows
+- Weinan Chen (2020 - 2022), Guangdong University of Technology
+#### Research Associates
+- Xinkai Jiang (2021 - 2022), Karlsruher Institut für Technologie

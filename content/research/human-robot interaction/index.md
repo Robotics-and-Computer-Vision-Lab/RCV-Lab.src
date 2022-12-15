@@ -1,6 +1,6 @@
 ---
 title: Human-robot Interaction
-weight: 2
+weight: 3
 # subtitle: Chao Tang, Jingwen Yu, Weinan Chen, Bingyi Xia and Hong Zhang (a joint
 #   work between SUSTech and HKUST)
 date: 2022-06-18T07:10:14.697Z

@@ -8,7 +8,7 @@ social:
 weight: 25
 role: Lab Manager 
 user_groups:
-  - People
+  - Lab Helper
 
 ---
 ### About Me

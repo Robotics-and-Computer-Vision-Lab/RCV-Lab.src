@@ -11,7 +11,7 @@ social:
     link: https://github.com/Laniakea77
 
 user_groups:
-  - People
+  - M.Sc. Students
 ---
 ### About Me
 I am a MSE student in Robotics and Computer Vision Lab under the direction of Prof. Hong Zhang at Southern University of Science and Technology since 09/2022. I received the B.E. degree in computer sicence and technology from the Hefei University of Technology, in 06/2022. My research focuses on robotic visual perception.

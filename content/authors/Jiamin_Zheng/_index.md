@@ -14,7 +14,7 @@ social:
     link: https://github.com/JMamie
 
 user_groups:
-  - People
+  - M.Sc. Students
 ---
 ### About Me
 I'm working toward the M.S. degree in electronic science and technology with the Department of Electronic and Electrical Engineering, Southern University of Science and Technology since 2021. I received the B.S. degree in transportation engineering from Zhejiang University in 2019. My research interests include scene change detection, long-term visual Simultaneous Localization And Mapping (SLAM).

@@ -22,6 +22,8 @@ content:
   filter_button:
     - name: All
       tag: '*'
+    - name: Labs
+      tag: Lab
     - name: Mobile Robot Platforms
       tag: Robots
     - name: Servers

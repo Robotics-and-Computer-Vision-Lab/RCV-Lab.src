@@ -16,7 +16,13 @@ content:
   # Choose which groups/teams of users to display.
   #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
   user_groups:
-    - People
+    - Faculty Members
+    - Post-Doctoral Fellows
+    - Lab Helper
+    - Ph.D. Students
+    - M.Sc. Students
+    - Undergraduate Students
+    - Research Associates
 design:
   show_interests: true
   show_role: true

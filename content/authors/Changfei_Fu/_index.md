@@ -14,7 +14,7 @@ social:
     link: https://github.com/Changfei-Fu
 
 user_groups:
-  - People
+  - M.Sc. Students
 ---
 ### About Me
 Changfei Fu received his B.S. degree in Electronic and Information Engineering from CUMT, China University of Mining and Technology in 2020. He was a recipient of the first class scholarship at CUMT and the excellent award with a bronze medal of the international Robotic Competition Robomaster2018, and the first class award in Robomaster2019. Changfei Fu's research interests are in robotic vision and navigation, especially those algorithms that can make a robot run in real-world. He likes basketball and singing. He began to play basketball since he was a primary school student. 

@@ -14,7 +14,7 @@ social:
     link: https://github.com/Zhilong-Tang
 
 user_groups:
-  - People
+  - M.Sc. Students
 ---
 ### About Me
 I am a M.S.E student in Shenzhen Key Laboratory of Robotics and Computer Vision under the direction of Prof. Hong Zhang at Southern University of Science and Technology since 09/2020. I received my B.S. degree at Southern University of Science and Technology. My research focuses on robotic simultaneous localization and mapping (SLAM). 

@@ -2,9 +2,9 @@
 title: Wenlong Dong
 
 weight: 30
-role: Visiting Student
+role: Undergraduate Student
 user_groups:
-  - People
+  - Undergraduate Students
 
 social:
   - icon: envelope 

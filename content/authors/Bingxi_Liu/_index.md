@@ -17,7 +17,7 @@ social:
     link: https://binuxliu.github.io/
 
 user_groups:
-  - People
+  - Ph.D. Students
 ---
 ### About Me
 

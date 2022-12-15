@@ -11,7 +11,7 @@ social:
     link: https://scholar.google.com/citations?hl=en&user=J7UkpAIAAAAJ
 superuser: false
 user_groups:
-  - People
+  - Faculty Members
 ---
 ### About Me
 I am a Chair Professor in the Department of Electronic and Electrical Engineering, at Southern University of Science and Technology (SUSTech).   Prior to joining SUSTech, I was a Professor in the Department of Computing Science at the University of Alberta for over 30 years. I received my BSc degree from Northeastern University (USA) and my PhD from Purdue University. I had an 18-month post-doctoral training at the University of Pennsylvania before coming to Canada.  I am holding an adjunct appointment at the University of Alberta.
