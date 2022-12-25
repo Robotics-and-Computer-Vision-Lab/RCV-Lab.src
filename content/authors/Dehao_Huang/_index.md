@@ -26,7 +26,7 @@ user_groups:
 I am a MSE student in Robotics and Computer Vision Lab under the direction of Prof. Hong Zhang at Southern University of Science and Technology since 09/2022. I received the B.E. degree in information engineering from the South China Normal University, in 06/2022. My research focuses on robotic visual perception.
 
 ### Research
-{{< youtube mhQnRS0X_RA >}}
+{{< youtube mhQnRS0X_RA "Research Introduction">}}
 
 My research interests focus on visual scene understanding for robotic manipulation, including mapping and planning: 
 1. Object-level semantic mapping 
