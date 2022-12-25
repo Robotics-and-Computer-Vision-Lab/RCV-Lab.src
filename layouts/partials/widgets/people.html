@@ -25,44 +25,58 @@
   {{ range $page.Params.content.user_groups }}
   {{/* @note 索引其他地方页面的方式 */}}
   {{ $query := where (where site.Pages "Section" "authors") ".Params.user_groups" "intersect" (slice .) }}
+  {{ $query_len := len $query }}
 
-  {{if $query | and (gt (len $page.Params.content.user_groups) 1) }}
-  <div class="col-md-12">
-    <h2 class="mb-4">{{ . | markdownify }}</h2>
-  </div>
-  {{end}}
-
-  {{ range $query }}
-  {{ $avatar := (.Resources.ByType "image").GetMatch "*avatar*" }}
-  {{/* Get link to user's profile page. */}}
-  {{ $link := "" }}
-  {{ with site.GetPage (printf "/authors/%s" (path.Base .File.Dir)) }}
-    {{ $link = .RelPermalink }}
+  {{ $container_len := 12 }}
+  {{ $item_len := 3 }}
+  {{if eq . "Post-Doctoral Fellows"}}
+    {{ $container_len = 12 }}
+    {{ $item_len = 3 }}
+  {{else if eq . "Lab Helper"}}
+    {{ $container_len = 12 }}
+    {{ $item_len = 3 }}
+  {{else}}
+    {{ $container_len = 12 }}
+    {{ $item_len = 3 }}
   {{ end }}
-  {{/* @note 调节People每行的个数 */}}
-  <div class="col-12 col-sm-auto people-person">
-    {{ $src := "" }}
-    {{ if site.Params.features.avatar.gravatar }}
-      {{ $src = printf "https://s.gravatar.com/avatar/%s?s=150" (md5 .Params.email) }}
-    {{ else if $avatar }}
-      {{ $avatar_image := $avatar.Fill "270x270 Center" }}
-      {{ $src = $avatar_image.RelPermalink }}
+
+  <div class="col-md-{{$container_len}}" style="display: flex; flex-wrap: wrap; justify-content: center;">
+    <div style="flex-grow: 1; flex-basis: 100%;">
+        <h2 class="mb-4">{{ . | markdownify }}</h2>
+    </div>
+
+    {{ range $query }}
+    {{ $avatar := (.Resources.ByType "image").GetMatch "*avatar*" }}
+    {{/* Get link to user's profile page. */}}
+    {{ $link := "" }}
+    {{ with site.GetPage (printf "/authors/%s" (path.Base .File.Dir)) }}
+        {{ $link = .RelPermalink }}
     {{ end }}
-    <div class="people-avatar">
-        {{ if $src }}
-        {{ $avatar_shape := site.Params.features.avatar.shape | default "circle" }}
-        {{with $link}}<a href="{{.}}">{{end}}<img width="270" height="270" loading="lazy" class="avatar {{if eq $avatar_shape "square"}}avatar-square{{else}}avatar-circle{{end}}" src="{{ $src }}" alt="Avatar">{{if $link}}</a>{{end}}
+    {{/* @note 调节People每行的个数 */}}
+    <div class="col-{{$item_len}} people-person">
+        {{ $src := "" }}
+        {{ if site.Params.features.avatar.gravatar }}
+        {{ $src = printf "https://s.gravatar.com/avatar/%s?s=150" (md5 .Params.email) }}
+        {{ else if $avatar }}
+        {{ $avatar_image := $avatar.Fill "270x270 Center" }}
+        {{ $src = $avatar_image.RelPermalink }}
         {{ end }}
-    </div>
+        <div class="people-avatar">
+            {{ if $src }}
+            {{ $avatar_shape := site.Params.features.avatar.shape | default "circle" }}
+            {{with $link}}<a href="{{.}}">{{end}}<img width="270" height="270" loading="lazy" class="avatar {{if eq $avatar_shape "square"}}avatar-square{{else}}avatar-circle{{end}}" src="{{ $src }}" alt="Avatar">{{if $link}}</a>{{end}}
+            {{ end }}
+        </div>
 
-    <div class="portrait-title">
-      <h2>{{with $link}}<a href="{{.}}">{{end}}{{ .Title }}{{if $link}}</a>{{end}}</h2>
-      {{ if and $show_organizations .Params.organizations }}{{ range .Params.organizations }}<h3>{{ .name }}</h3>{{ end }}{{ end }}
-      {{ if and $show_role .Params.role }}<h3>{{ .Params.role | markdownify | emojify }}</h3>{{ end }}
-      {{ if $show_social }}{{ partial "social_links" . }}{{ end }}
-      {{ if and $show_interests .Params.interests }}<p class="people-interests">{{ delimit .Params.interests ", " | markdownify | emojify }}</p>{{ end }}
+        <div class="portrait-title">
+        <h2>{{with $link}}<a href="{{.}}">{{end}}{{ .Title }}{{if $link}}</a>{{end}}</h2>
+        {{ if and $show_organizations .Params.organizations }}{{ range .Params.organizations }}<h3>{{ .name }}</h3>{{ end }}{{ end }}
+        {{ if and $show_role .Params.role }}<h3>{{ .Params.role | markdownify | emojify }}</h3>{{ end }}
+        {{ if $show_social }}{{ partial "social_links" . }}{{ end }}
+        {{ if and $show_interests .Params.interests }}<p class="people-interests">{{ delimit .Params.interests ", " | markdownify | emojify }}</p>{{ end }}
+        </div>
     </div>
+    {{ end }}
   </div>
-  {{ end }}
   {{ end }}
 </div>
