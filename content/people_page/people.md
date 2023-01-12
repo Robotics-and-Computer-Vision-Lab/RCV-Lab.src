@@ -18,11 +18,11 @@ content:
   user_groups:
     - Faculty Members
     - Post-Doctoral Fellows
-    - Lab Helper
     - Ph.D. Students
     - M.Sc. Students
     - Undergraduate Students
     - Research Associates
+    - Administrative Assistant
 design:
   show_interests: true
   show_role: true

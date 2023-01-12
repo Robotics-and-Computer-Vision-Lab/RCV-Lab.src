@@ -6,9 +6,9 @@ social:
     link: mailto:yantc@mail.sustech.edu.cn
 
 weight: 25
-role: Lab Manager 
+role: Administrative Assistant
 user_groups:
-  - Lab Helper
+  - Administrative Assistant
 
 ---
 ### About Me
