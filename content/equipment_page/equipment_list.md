@@ -9,7 +9,7 @@ design:
 # Activate this widget? true/false
 active: true
 ---
-## Equipment List
+## List
 #### Lab
 - **RCV Lab (423)**: One of our lab containing about xxx square meters of space.
 - **RCV Lab (433)**: One of our lab containing about xxx square meters of space.

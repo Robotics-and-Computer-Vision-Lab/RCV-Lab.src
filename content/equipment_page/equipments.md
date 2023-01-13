@@ -10,7 +10,7 @@ headless: true
 # Order that this section appears on the page.
 weight: 65
 
-title: Equipment in the Robotics and Computer Vision Lab
+title: Research Equipment
 subtitle: ''
 
 content:
@@ -24,7 +24,7 @@ content:
       tag: '*'
     - name: Labs
       tag: Lab
-    - name: Mobile Robot Platforms
+    - name: Robots
       tag: Robots
     - name: Servers
       tag: Servers
