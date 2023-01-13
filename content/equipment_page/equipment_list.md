@@ -11,8 +11,8 @@ active: true
 ---
 ## Equipment List
 #### Lab
-- **423 Lab**: A lab containing about xxx square meters of space, which is the main work environment of the members.
-- **433 Lab**: A lab containing about xxx square meters of space, which is the main teaching environment.
+- **RCV Lab (423)**: One of our lab containing about xxx square meters of space.
+- **RCV Lab (433)**: One of our lab containing about xxx square meters of space.
 
 #### Mobile Robot Platforms:
 - **1 Clearpath-Dingo**: A light-weight, compact indoor mobile robot with an omnidirectional drive system and with native ROS and Gazebo integration (https://clearpathrobotics.com/dingo-indoor-mobile-robot/)
