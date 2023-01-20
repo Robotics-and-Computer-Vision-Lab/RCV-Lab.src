@@ -1,61 +1,62 @@
 .navbar {
-  height: 70px;
-  background: $sta-menu-primary;
-  box-shadow: 0 0.125rem 0.25rem 0 rgba(0, 0, 0, 0.05);
-  font-size: 20px;
+    height: 70px;
+    background: $sta-menu-primary;
+    box-shadow: 0 0.125rem 0.25rem 0 rgba(0, 0, 0, 0.05);
+    font-size: 20px;
 
-  // Remove Bootstrap's navbar v-padding and assign v-padding to logo separately to maximise logo size.
-  // Otherwise, Bootstrap's navbar v-padding causes issue with logo fitting within fixed 50px height bar in md-lg sizes.
-  padding: 0 1rem;
+    // Remove Bootstrap's navbar v-padding and assign v-padding to logo separately to maximise logo size.
+    // Otherwise, Bootstrap's navbar v-padding causes issue with logo fitting within fixed 50px height bar in md-lg sizes.
+    padding: 0 1rem;
 
-  .nav-item {
-    // For z-index compatibility with logo on mobile layout, otherwise nav-item can't be clicked when logo present.
-    position: relative;
-  }
-  @include media-breakpoint-down(md) {
-    height: 50px;
-
-    .navbar-nav-scroll {
-      width: 100%;
-      overflow: hidden;
-
-      .navbar-nav {
-        overflow-x: auto;
-        white-space: nowrap;
-        -webkit-overflow-scrolling: touch;
-      }
+    .nav-item {
+        // For z-index compatibility with logo on mobile layout, otherwise nav-item can't be clicked when logo present.
+        position: relative;
     }
-  }
 
-  .navbar-nav {
-    display: flex;
+    @include media-breakpoint-down(md) {
+        height: 50px;
 
-    .nav-link {
-      color: rgba($sta-menu-text, 0.85);
+        .navbar-nav-scroll {
+            width: 100%;
+            overflow: hidden;
 
-      &.active,
-      &:hover,
-      &:focus {
-        color: $sta-menu-text;
-      }
+            .navbar-nav {
+                overflow-x: auto;
+                white-space: nowrap;
+                -webkit-overflow-scrolling: touch;
+            }
+        }
+    }
 
-      &.active {
-        font-weight: bold !important;
+    .navbar-nav {
+        display: flex;
+
+        .nav-link {
+            color: rgba($sta-menu-text, 0.85);
+
+            &.active,
+            &:hover,
+            &:focus {
+                color: $sta-menu-text;
+            }
+
+            &.active {
+                font-weight: bold !important;
+                color: $sta-menu-text-active !important;
+            }
+        }
+    }
+
+    .dropdown-menu {
+        font-size: #{$sta-font-size-small}px;
+    }
+
+    // Note: dedicated `dropdown-item-active` class to prevent ScrollSpy removing `active` class from language chooser.
+    .dropdown-item.active,
+    .dropdown-item-active {
+        font-weight: bold;
         color: $sta-menu-text-active !important;
-      }
     }
-  }
-
-  .dropdown-menu {
-    font-size: #{$sta-font-size-small}px;
-  }
-
-  // Note: dedicated `dropdown-item-active` class to prevent ScrollSpy removing `active` class from language chooser.
-  .dropdown-item.active,
-  .dropdown-item-active {
-    font-weight: bold;
-    color: $sta-menu-text-active !important;
-  }
 }
 
 // @note Devices页面样式
@@ -63,9 +64,7 @@
     // float: left;
     margin: 0px 0.8rem 0px 0.8rem;
     align-items: center;
-    width: calc(
-        33.3% - 1.6rem
-    ); 
+    width: calc(33.3% - 1.6rem);
 }
 
 .device-card-content {
@@ -85,19 +84,19 @@
 }
 
 .home-section.wg-blank {
-  // Use `background` rather than `background-color` so it can support gradients in theme packs.
-  background: $sta-home-section-odd;
-  position: relative; // Required for component positioning within section.
-  padding: 1rem 0 1rem 0;
-  z-index: 0; // Explicit z-order otherwise `.home-section-bg` can be hidden by any `.home-section` background.
+    // Use `background` rather than `background-color` so it can support gradients in theme packs.
+    background: $sta-home-section-odd;
+    position: relative; // Required for component positioning within section.
+    padding: 1rem 0 1rem 0;
+    z-index: 0; // Explicit z-order otherwise `.home-section-bg` can be hidden by any `.home-section` background.
 }
 
 .home-section.wg-people {
-  // Use `background` rather than `background-color` so it can support gradients in theme packs.
-  background: $sta-home-section-odd;
-  position: relative; // Required for component positioning within section.
-  padding: 1.5rem 0 1rem 0;
-  z-index: 0; // Explicit z-order otherwise `.home-section-bg` can be hidden by any `.home-section` background.
+    // Use `background` rather than `background-color` so it can support gradients in theme packs.
+    background: $sta-home-section-odd;
+    position: relative; // Required for component positioning within section.
+    padding: 1.5rem 0 1rem 0;
+    z-index: 0; // Explicit z-order otherwise `.home-section-bg` can be hidden by any `.home-section` background.
 }
 
 #research-item-text {
@@ -109,9 +108,9 @@
 }
 
 @media only screen and (min-width: 1001px) {
-  .universal-wrapper {
-    width: 1150px;
-  }
+    .universal-wrapper {
+        width: 1150px;
+    }
 }
 
 #equipment-item {

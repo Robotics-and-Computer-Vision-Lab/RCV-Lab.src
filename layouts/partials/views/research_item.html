@@ -4,9 +4,9 @@
 
 {{ $do_link := true }}
 {{ if $item.Params.external_link | or $item.Content }}
-  {{ $do_link = true }}
+{{ $do_link = true }}
 {{ else }}
-  {{ $do_link = false }}
+{{ $do_link = false }}
 {{ end }}
 
 {{ $link := $item.Params.external_link | default $item.RelPermalink }}
@@ -15,61 +15,64 @@
 {{/* Get summary. */}}
 {{ $summary := "" }}
 {{ if $item.Params.summary }}
-  {{ $summary = $item.Params.summary | markdownify | emojify }}
+{{ $summary = $item.Params.summary | markdownify | emojify }}
 {{ else if $item.Params.abstract }}
-  {{ $summary = $item.Params.abstract | markdownify | emojify }}
+{{ $summary = $item.Params.abstract | markdownify | emojify }}
 {{ else if $item.Summary }}
-  {{ $summary = $item.Summary }}
+{{ $summary = $item.Summary }}
 {{ end }}
 
-{{ $content := $item.Content }}
+{{ $content := $item.Content | markdownify | emojify }}
 
 {{ $order := "" }}
 {{ if and ($widget.Params.design.flip_alt_rows | default true) (not (modBool $index 2)) }}
-  {{ $order = "order-md-2" }}
+{{ $order = "order-md-2" }}
 {{ end }}
 
+<style>
+    #research-item-text-content a:link {
+        text-decoration: underline;
+    }
+
+    #research-item-text-content p {
+        margin: 0.1rem;
+    }
+</style>
 
 <div class="section-subheading article-title mb-0 mt-0" style="margin-bottom: 0.7rem !important; font-size: 1.5rem;">
     <div>
-    {{ $item.Title | markdownify | emojify }}
+        {{ $item.Title | markdownify | emojify }}
     </div>
 </div>
 
 <div class="col-lg-12 mb-5 view-showcase">
-  <div class="row align-items-center">
+    <div class="row align-items-center">
 
-    {{/* Text Part */}}
-    <div id="research-item-text" class="col-12 col-md-6">
-      {{ with $summary }}
-      <div class="article-style" style="text-align: left;">
-        {{ . }}
-      </div>
-      {{ end }}
-
-      <div class="btn-links">
-        {{ partial "page_links" (dict "page" $item "is_list" 0) }}
-      </div>
-    </div>
-
-    {{/* Image Part */}}
-    <div id="research-item-image" class="col-12 col-md-6 order-first {{$order}}">
-      {{ $resource := ($item.Resources.ByType "image").GetMatch "*featured*" }}
-      {{ with $resource }}
-      {{ $image := .Resize "640x480" }}
-      <div style="display: flex; justify-content: center; flex-direction: column;">
-        <div style="text-align: center;">
-            <img src="{{ $image.RelPermalink }}" height="{{ $image.Height }}" width="{{ $image.Width }}"
-                alt="{{ $item.Title }}" loading="lazy" style="object-fit: cover;">
-        </div>
-
-        {{ with $content }}
-            <div class="article-style" style="text-align: left;">
+        {{/* Text Part */}}
+        <div id="research-item-text" class="col-12 col-md-8" style="font-size: 0.95rem;">
+            {{ with $content }}
+            <div id="research-item-text-content" class="article-style" style="text-align: left;">
                 {{ . }}
             </div>
-        {{ end }}
-      </div>
-      {{end}}
+            {{ end }}
+
+            <div class="btn-links">
+                {{ partial "page_links" (dict "page" $item "is_list" 0) }}
+            </div>
+        </div>
+
+        {{/* Image Part */}}
+        <div id="research-item-image" class="col-12 col-md-4 order-first {{$order}}">
+            {{ $resource := ($item.Resources.ByType "image").GetMatch "*featured*" }}
+            {{ with $resource }}
+            {{ $image := .Resize "640x480" }}
+            <div style="display: flex; justify-content: center; flex-direction: column;">
+                <div style="text-align: center;">
+                    <img src="{{ $image.RelPermalink }}" height="{{ $image.Height }}" width="{{ $image.Width }}"
+                        alt="{{ $item.Title }}" loading="lazy" style="object-fit: cover;">
+                </div>
+            </div>
+            {{end}}
+        </div>
     </div>
-  </div>
 </div>
