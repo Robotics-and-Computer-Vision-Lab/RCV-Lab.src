@@ -2,7 +2,7 @@
 
 {{ partial "page_header.html" . }}
 
-<div id="publication_root" class="universal-wrapper" style="width: 1000px;">
+<div id="publication_root" class="universal-wrapper" style="width: 1100px;">
   <div class="row">
     <div class="col-lg-12">
 
@@ -16,7 +16,7 @@
         {{ $.Scratch.SetInMap "years" $year $year }}
       {{ end }}
 
-      <div class="form-row mb-4" style="padding-left: 0.8rem;">
+      <div class="form-row mb-4" style="padding-left: 0.8rem; justify-content: center;">
         <div class="col-auto" style="width: 24rem;">
           <input type="search" class="filter-search form-control form-control-sm" placeholder="{{ i18n "search_placeholder" }}" autocapitalize="off"
           autocomplete="off" autocorrect="off" role="textbox" spellcheck="false">
