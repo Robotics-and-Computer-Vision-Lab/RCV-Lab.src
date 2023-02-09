@@ -2,7 +2,7 @@
 
 {{ partial "page_header.html" . }}
 
-<div class="universal-wrapper">
+<div id="publication_root" class="universal-wrapper" style="width: 1000px;">
   <div class="row">
     <div class="col-lg-12">
 
@@ -16,12 +16,12 @@
         {{ $.Scratch.SetInMap "years" $year $year }}
       {{ end }}
 
-      <div class="form-row mb-4">
-        <div class="col-auto">
+      <div class="form-row mb-4" style="padding-left: 0.8rem;">
+        <div class="col-auto" style="width: 24rem;">
           <input type="search" class="filter-search form-control form-control-sm" placeholder="{{ i18n "search_placeholder" }}" autocapitalize="off"
           autocomplete="off" autocorrect="off" role="textbox" spellcheck="false">
         </div>
-        <div class="col-auto">
+        <div class="col-auto" style="width: 7rem;">
           <select class="pub-filters pubtype-select form-control form-control-sm" data-filter-group="pubtype">
             <option value="*">{{ i18n "publication_type" }}</option>
             {{ $pub_types := partial "functions/get_pub_types" $ }}
@@ -32,7 +32,7 @@
             {{ end }}
           </select>
         </div>
-        <div class="col-auto">
+        <div class="col-auto" style="width: 7rem;">
           <select class="pub-filters form-control form-control-sm" data-filter-group="year">
             <option value="*">{{ i18n "date" }}</option>
             {{ $years_sorted := $.Scratch.GetSortedMapValues "years" }}
