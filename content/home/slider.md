@@ -21,6 +21,6 @@ content:
       background:
         position: right
         color: '#666'
-        brightness: 0.7
+        brightness: 0.9
         media: home_slides/home_5.jpg
 ---
