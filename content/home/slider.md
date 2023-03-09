@@ -15,38 +15,6 @@ design:
 
 content:
   slides:
-    # - title: 
-    # #   content: Fill
-    #   align: center
-    #   background:
-    #     position: right
-    #     color: '#666'
-    #     brightness: 0.7
-    #     media: home_slides/home_1.jpg
-    # - title: 
-    # #   content: Fill
-    #   align: center
-    #   background:
-    #     position: right
-    #     color: '#666'
-    #     brightness: 0.7
-    #     media: home_slides/home_2.jpg
-    # - title: 
-    # #   content: Fill
-    #   align: center
-    #   background:
-    #     position: right
-    #     color: '#666'
-    #     brightness: 0.7
-    #     media: home_slides/home_3.jpg
-    # - title: 
-    # #   content: Fill
-    #   align: center
-    #   background:
-    #     position: right
-    #     color: '#666'
-    #     brightness: 0.7
-    #     media: home_slides/home_4.jpg
     - title: 
     #   content: Fill
       align: center
