@@ -18,6 +18,7 @@ active: true
 - **1 Clearpath-Dingo**: A light-weight, compact indoor mobile robot with an omnidirectional drive system and with native ROS and Gazebo integration (https://clearpathrobotics.com/dingo-indoor-mobile-robot/)
 - **1 Clearpath-Jackle**: A small, fast, entry-level field robotics research platform with an onboard computer, GPS and IMU fully integrated with ROS for out-of-the-box autonomous capability. (https://clearpathrobotics.com/jackal-small-unmanned-ground-vehicle/)
 - **1 Clearpath-RidgeBack**: A midsize indoor robot platform that uses an omni-drive to move manipulators and heavy payloads with ease, it support native ROS and Gazebo integration and is plug-and-play compatible with Clearpath’s wide range of robot accessories. (https://clearpathrobotics.com/ridgeback-indoor-robot-platform/)
+- **1 Unitree Go1**: A lightweight, mass-produced bionic quadruped robot with Intelligent Side-Follow System (ISS), Super Sensory System (SSS) and built-in powerful AI. ([link](https://www.unitree.com/go1))
 - **18 Turtlebot3**: A small, affordable, programmable, ROS-based mobile robot for use in education, research, hobby, and product prototyping. (https://www.turtlebot.com/turtlebot3/)
 
 #### Sensors:

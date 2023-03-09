@@ -10,9 +10,6 @@ social:
   - icon: envelope 
     icon_pack: fas
     link: mailto:wenlongdong1017@163.com
-  - icon: graduation-cap 
-    icon_pack: fas
-    link: <Your google-scholar link>
   - icon_pack: fab
     icon: github
     link: https://github.com/wlongdong
