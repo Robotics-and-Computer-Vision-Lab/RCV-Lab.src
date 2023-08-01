@@ -4,7 +4,7 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: Robotics and Computer Vision Lab # Website name
-baseURL: 'https://robotics-and-computer-vision-lab.github.io/RCV-Lab.github.io/' # Website URL
+baseURL: 'https://rcvlab.eee.sustech.edu.cn/' # Website URL
 
 ############################
 ## LANGUAGE
