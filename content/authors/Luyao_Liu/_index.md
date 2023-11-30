@@ -2,17 +2,17 @@
 title: Luyao Liu
 
 weight: 30
-role: Undergraduate Student
+role: M.Sc. Student
 user_groups:
-  - Undergraduate Students
+  - M.Sc. Students
 
 social:
   - icon: envelope 
     icon_pack: fas
-    link: mailto:luyao-liu@outlook.com
+    link: mailto:luyaoliu2001@gmail.com
 ---
 ### About Me
-I am a visiting student with the Department of Electronic and Electrical Engineering, Southern University of Science and Technology since 02/2023. I am currently majoring in Electronic Information Engineering at Zhengzhou University. My research interests include deep learning, point cloud processing and robotic.
+I am currently a post-graduate student in Robotics and Computer Vision  (RCV) Lab under the direction of Dr. Hong Zhang at Southern University  of Science and Technology (SUSTech).Concretely, my research focuses on  point cloud processing, optimization methods and robotics navigation.
 
 ![research](authors_research/luyao_liu.png "Research Introduction")
 
