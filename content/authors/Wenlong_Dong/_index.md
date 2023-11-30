@@ -2,19 +2,21 @@
 title: Wenlong Dong
 
 weight: 30
-role: Undergraduate Student
+role: M.Sc. Student
 user_groups:
-  - Undergraduate Students
+  - M.Sc. Students
 
 social:
   - icon: envelope 
     icon_pack: fas
-    link: mailto:wenlongdong1017@163.com
+    link: mailto:wlong1017@gmail.com
   - icon_pack: fab
     icon: github
     link: https://github.com/wlongdong
+  - icon: graduation-cap 
+    icon_pack: fas
+    link: https://scholar.google.com/citations?user=NNafpNQAAAAJ&amp;hl=zh-CN
 ---
 ### About Me
-I am a visiting student with the Department of Electronic and Electrical Engineering, Southern University of Science and Technology since 11/2022. I am currently studying Electronic Information Science and Technology at Dalian Maritime University. My research interests include autonomous driving, long-term visual simultaneous localization and mapping.
-
+I am currently a post-graduate student in Robotics and Computer Vision  (RCV) Lab under the direction of Dr. Hong Zhang at Southern University  of Science and Technology (SUSTech).Concretely, my research focuses on  robotic manipulation and grasping using vision and language, semantic  scene understanding, mobile manipulaiton.
 

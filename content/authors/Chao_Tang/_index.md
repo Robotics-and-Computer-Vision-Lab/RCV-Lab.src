@@ -20,12 +20,12 @@ user_groups:
   - Ph.D. Students
 ---
 ### About Me
-My name is Chao Tang. I am currently a Ph.D. student under the supervision of Dr. Hong Zhang in Robotics and Computer Vision (RCV) Lab at Southern University of Science and Technology (SUSTech). Prior to joining SUSTech, I obtained my M.S. degree from Georgia Tech under the supervision of Dr. Patricio Vela. 
+Hi, I’m a Robotics Ph.D. student in Electronic & Electrical Engineering at Southern University of Science and Technology (SUSTech), advised by Chair Professor Hong Zhang. Previously, I received my M.S. in Electrical & Computer Engineering from Georgia Tech in 2020 (advised by Prof. Patricio Vela) and my B.Eng. in Automation from Nanjing Tech University in 2018.
+
+Feel free to reach out if you want to talk or collaborate!
 
 ### Research
-{{< youtube I5JG-qJFIIU "Research Introduction" >}}
+{{< youtube mhQnRS0X_RA "Research Introduction">}}
 
-My research interests are on the intersection of robotics, computer vision, and deep learning. Concretely, my research focuses on robotic manipulation and grasping using vision and language, semantic scene understanding, mobile manipulaiton. The goal is to build intelligent robots that can physically and naturally interact with human and the unstructured world.
-
-
+My research interests involve robotic manipulation and grasping, mobile manipulation, human-robot interaction, and semantic reasoning for robots. The ultimate goal is to develop autonomous agents that can perceive, reason, and interact with the physical world with the same level of Intelligence as humans.
 

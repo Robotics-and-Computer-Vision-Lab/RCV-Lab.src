@@ -22,7 +22,7 @@ content:
     - M.Sc. Students
     - Undergraduate Students
     - Research Associates
-    - Administrative Assistant
+    - Administrative Assistants
 design:
   show_interests: true
   show_role: true

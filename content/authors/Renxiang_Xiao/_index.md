@@ -1,7 +1,7 @@
 ---
 title: Renxiang Xiao
 weight: 20
-role: Research Associates
+role: Research Associate
 social:
   - icon: envelope 
     icon_pack: fas

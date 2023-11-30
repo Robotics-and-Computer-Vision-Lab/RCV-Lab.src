@@ -1,16 +1,22 @@
 ---
 title: Jiarui Xu
 
-weight: 31
-role: Undergraduate Student
+weight: 30
+role: M.Sc. Student
 user_groups:
-  - Undergraduate Students
+  - M.Sc. Students
 
 social:
   - icon: envelope 
     icon_pack: fas
-    link: mailto:11911116@mail.sustech.edu.cn
+    link: jefferyxeom@gmail.com
+  - icon: graduation-cap 
+    icon_pack: fas
+    link: https://scholar.google.com/citations?user=EZwL9jYAAAAJ&h
+  - icon_pack: fab
+    icon: github
+    link: https://github.com/JefferyXeom
 ---
 ### About Me
-I am an undergraduate student in Robotics and Computer Vision Lab under the direction of Prof. Hong Zhang at Southern University of Science and Technology since 11/2020. Currently I am working on hardware acceleration on image processing. My future research interest will be on robot control and computer vision.
+I am currently a post-graduate student in Robotics and Computer Vision  (RCV) Lab under the direction of Dr. Hong Zhang at Southern University  of Science and Technology (SUSTech). I was working on hardware  acceleration on image processing last year. Currently my research focues on robotics, SLAM and computer vision.
 
