@@ -1,0 +1,325 @@
+@article{chen2023cloud,
+  title={Cloud Learning-based Meets Edge Model-based: Robots Don't Need to Build All the Submaps dItself},
+  author={Chen, Weinan and Huang, Dehao and Pan, Yaling and Chen, Guangcheng and Ruan, Jiahao and Yu, Jingwen and Zheng, Jiamin and Zhang, Hong},
+  journal={IEEE Transactions on Vehicular Technology},
+  year={2023},
+  publisher={IEEE},
+  abstract = {In recent years, signiﬁcant progress has been made in learning-based VSLAM (Visual Simultaneous Localization and Mapping). Cloud-based VSLAM is a promising solution for meeting the computational demands of learning-based methods in mobile robot applications. However, existing cloud-based VSLAM systems face high transmission demands. To address this issue, we propose a cloud-based VSLAM system, ofﬂoading the heavy cost of reconstructing challenging images to the cloud using the learning-based method and leaving the light realtime tracking in the edge using the model-based method. By combining the cloudedge transmission and a multiple submap VSLAM framework, we introduce a rumination-inspired mechanism for asynchronous and distributed submap building. The submap-based framework and proposed down-sampling method help reduce transmission frequency and data volume. We present experimental results that demonstrate the robustness and precision of our cloudbased multiple submap VSLAM system. We also evaluate the runtime performance of communication and computation on a real robot platform, which suggests that the multiple submap VSLAM framework can effectively release computation load while satisfying both robustness and realtime requirements.},
+}
+
+
+@article{ye2023condition,
+  title={Condition-invariant and compact visual place description by convolutional autoencoder},
+  author={Ye, Hanjing and Chen, Weinan and Yu, Jingwen and He, Li and Guan, Yisheng and Zhang, Hong},
+  journal={Robotica},
+  volume={41},
+  number={6},
+  pages={1718--1732},
+  year={2023},
+  publisher={Cambridge University Press}
+}
+
+
+@misc{huang_efficient_2023,
+	title = {Efficient {Object} {Rearrangement} via {Multi}-view {Fusion}},
+	url = {http://arxiv.org/abs/2309.08994},
+	abstract = {The prospect of assistive robots aiding in object organization has always been compelling. In an image-goal setting, the robot rearranges the current scene to match the single image captured from the goal scene. The key to an image-goal rearrangement system is estimating the desired placement pose of each object based on the single goal image and observations from the current scene. In order to establish sufficient associations for accurate estimation, the system should observe an object from a viewpoint similar to that in the goal image. Existing image-goal rearrangement systems, due to their reliance on a fixed viewpoint for perception, often require redundant manipulations to randomly adjust an object’s pose for a better perspective. Addressing this inefficiency, we introduce a novel object rearrangement system that employs multi-view fusion. By observing the current scene from multiple viewpoints before manipulating objects, our approach can estimate a more accurate pose without redundant manipulation times. A standard visual localization pipeline at the object level is developed to capitalize on the advantages of multi-view observations. Simulation results demonstrate that the efficiency of our system outperforms existing single-view systems. The effectiveness of our system is further validated in a physical experiment.},
+	language = {en},
+	urldate = {2023-11-23},
+	publisher = {arXiv},
+	author = {Huang, Dehao and Tang, Chao and Zhang, Hong},
+	month = sep,
+	year = {2023},
+	note = {arXiv:2309.08994 [cs]},
+	keywords = {Computer Science - Robotics},
+}
+
+
+@inproceedings{jiao2022fusionportable,
+  title={Fusionportable: A multi-sensor campus-scene dataset for evaluation of localization and mapping accuracy on diverse platforms},
+  author={Jiao, Jianhao and Wei, Hexiang and Hu, Tianshuai and Hu, Xiangcheng and Zhu, Yilong and He, Zhijian and Wu, Jin and Yu, Jingwen and Xie, Xupeng and Huang, Huaiyang and others},
+  booktitle={2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  pages={3851--3856},
+  year={2022},
+  organization={IEEE},
+  url = {http://arxiv.org/abs/2208.11865},
+  abstract = {Combining multiple sensors enables a robot to maximize its perceptual awareness of environments and enhance its robustness to external disturbance, crucial to robotic navigation. This paper proposes the FusionPortable benchmark, a complete multi-sensor dataset with a diverse set of sequences for mobile robots. This paper presents three contributions. We ﬁrst advance a portable and versatile multi-sensor suite that offers rich sensory measurements: 10Hz LiDAR point clouds, 20Hz stereo frame images, high-rate and asynchronous events from stereo event cameras, 200Hz inertial readings from an IMU, and 10Hz GPS signal. Sensors are already temporally synchronized in hardware. This device is lightweight, selfcontained, and has plug-and-play support for mobile robots. Second, we construct a dataset by collecting 17 sequences that cover a variety of environments on the campus by exploiting multiple robot platforms for data collection. Some sequences are challenging to existing SLAM algorithms. Third, we provide ground truth for the decouple localization and mapping performance evaluation. We additionally evaluate state-of-theart SLAM approaches and identify their limitations. The dataset, consisting of raw sensor measurements, ground truth, calibration data, and evaluated algorithms, will be released.},
+}
+
+
+@article{tang2023graspgpt,
+  title={GraspGPT: Leveraging Semantic Knowledge from a Large Language Model for Task-Oriented Grasping},
+  author={Tang, Chao and Huang, Dehao and Ge, Wenqi and Liu, Weiyu and Zhang, Hong},
+  journal={IEEE Robotics and Automation Letters},
+  year={2023},
+  publisher={IEEE},
+  abstract = {Task-oriented grasping (TOG) refers to the problem of predicting grasps on an object that enable subsequent manipulation tasks. To model the complex relationships between objects, tasks, and grasps, existing methods incorporate semantic knowledge as priors into TOG pipelines. However, the existing semantic knowledge is typically constructed based on closed-world concept sets, restraining the generalization to novel concepts out of the pre-defined sets. To address this issue, we propose GraspGPT, a large language model (LLM) based TOG framework that leverages the open-end semantic knowledge from an LLM to achieve zero-shot generalization to novel concepts. We conduct experiments on Language Augmented TaskGrasp (LA-TaskGrasp) dataset and demonstrate that GraspGPT outperforms existing TOG methods on different held-out settings when generalizing to novel concepts out of the training set. The effectiveness of GraspGPT is further validated in real-robot experiments. Our code, data, appendix, and video are publicly available at https://sites.google.com/view/graspgpt.},
+}
+
+
+@inproceedings{chen_keyframe_2022,
+	address = {Kyoto, Japan},
+	title = {Keyframe {Selection} with {Information} {Occupancy} {Grid} {Model} for {Long}-term {Data} {Association}},
+	isbn = {978-1-66547-927-1},
+	url = {https://ieeexplore.ieee.org/document/9981050/},
+	doi = {10.1109/IROS47612.2022.9981050},
+	abstract = {As the basics of Visual Simultaneous Localization And Mapping (VSLAM), keyframes play an essential role. In previous works, keyframes are selected according to a series of view change-based strategies for short-term data association (STDA). However, the texture enrichment of frames is always ignored, resulting in the failure of long-term data association (LTDA). In this paper, we propose an information enrichment selection strategy with an information occupancy grid model and a deep descriptor. Frame is expressed by a deep global descriptor for a statistical explainable abstraction, in which the texture enrichment is indicated. Based on the abstraction, an information occupancy grid model is established to measure the information enrichment and the potential LTDA ability. Evaluations on variant datasets are conducted, showing the advantage of our proposed method in terms of keyframe selection and tracking precision. Also, the statistical explainability of the deep descriptor is provided. The proposed keyframe selection strategy can improve LTDA and tracking precision, especially in situations with repeated observations and loop-closures.},
+	language = {en},
+	urldate = {2023-11-23},
+	booktitle = {2022 {IEEE}/{RSJ} {International} {Conference} on {Intelligent} {Robots} and {Systems} ({IROS})},
+	publisher = {IEEE},
+	author = {Chen, Weinan and Ye, Hanjing and Zhu, Lei and Tang, Chao and Fu, Changfei and Chen, Yonggang and Zhang, Hong},
+	month = oct,
+	year = {2022},
+	pages = {2786--2793},
+}
+
+
+@inproceedings{ye2021mapping,
+  title={Mapping While Following: 2D LiDAR SLAM in Indoor Dynamic Environments with a Person Tracker},
+  author={Ye, Hanjing and Chen, Guangcheng and Chen, Weinan and He, Li and Guan, Yisheng and Zhang, Hong},
+  booktitle={2021 IEEE International Conference on Robotics and Biomimetics (ROBIO)},
+  pages={826--832},
+  year={2021},
+  organization={IEEE},
+  abstract = {2D LiDAR SLAM (Simultaneous Localization and Mapping) is widely used in indoor environments due to its stability and flexibility. However, its mapping procedure is usually operated by a joystick in static environments, while indoor environments often are dynamic with moving objects such as people. The generated map with noisy points due to the dynamic objects is usually incomplete and distorted. To address this problem, we propose a framework of 2D-LiDAR-based SLAM without manual control that effectively excludes dynamic objects (people) and simplify the process for a robot to map an environment. The framework, which includes three parts: people tracking, filtering and following. We verify our proposed framework in experiments with two classic 2D-LiDAR-based SLAM algorithms in indoor environments. The results show that this framework is effective in handling dynamic objects and reducing the mapping error.},
+}
+
+
+@inproceedings{tang2022relationship,
+  title={Relationship Oriented Semantic Scene Understanding for Daily Manipulation Tasks},
+  author={Tang, Chao and Yu, Jingwen and Chen, Weinan and Xia, Bingyi and Zhang, Hong},
+  booktitle={2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  pages={9926--9933},
+  year={2022},
+  organization={IEEE}
+}
+
+
+@inproceedings{ye2023robot,
+  title={Robot person following under partial occlusion},
+  author={Ye, Hanjing and Zhao, Jieting and Pan, Yaling and Cherr, Weinan and He, Li and Zhang, Hong},
+  booktitle={2023 IEEE International Conference on Robotics and Automation (ICRA)},
+  pages={7591--7597},
+  year={2023},
+  organization={IEEE},
+  abstract = {Robot person following (RPF) is a capability that supports many useful human-robot-interaction (HRI) applications. However, existing solutions to person following often assume full observation of the tracked person. As a consequence, they cannot track the person reliably under partial occlusion where the assumption of full observation is not satisﬁed. In this paper, we focus on the problem of robot person following under partial occlusion caused by a limited ﬁeld of view of a monocular camera. Based on the key insight that it is possible to locate the target person when one or more of his/her joints are visible, we propose a method in which each visible joint contributes a location estimate of the followed person. Experiments on a public person-following dataset show that, even under partial occlusion, the proposed method can still locate the person more reliably than the existing SOTA methods. As well, the application of our method is demonstrated in real experiments on a mobile robot.},
+}
+
+
+@misc{tang_task-oriented_2023,
+	title = {Task-{Oriented} {Grasp} {Prediction} with {Visual}-{Language} {Inputs}},
+	url = {http://arxiv.org/abs/2302.14355},
+	abstract = {To perform household tasks, assistive robots receive commands in the form of user language instructions for tool manipulation. The initial stage involves selecting the intended tool (i.e., object grounding) and grasping it in a task-oriented manner (i.e., task grounding). Nevertheless, prior researches on visual-language grasping (VLG) focus on object grounding, while disregarding the ﬁne-grained impact of tasks on object grasping. Task-incompatible grasping of a tool will inevitably limit the success of subsequent manipulation steps. Motivated by this problem, this paper proposes GraspCLIP, which addresses the challenge of task grounding in addition to object grounding to enable task-oriented grasp prediction with visuallanguage inputs. Evaluation on a custom dataset demonstrates that GraspCLIP achieves superior performance over established baselines with object grounding only. The effectiveness of the proposed method is further validated on an assistive robotic arm platform for grasping previously unseen kitchen tools given the task speciﬁcation. Our presentation video is available at: https://www.youtube.com/watch?v=e1wfYQPeAXU.},
+	language = {en},
+	urldate = {2023-11-23},
+	publisher = {arXiv},
+	author = {Tang, Chao and Huang, Dehao and Meng, Lingxiao and Liu, Weiyu and Zhang, Hong},
+	month = feb,
+	year = {2023},
+	note = {arXiv:2302.14355 [cs]},
+	keywords = {Computer Science - Robotics},
+	file = {Tang et al. - 2023 - Task-Oriented Grasp Prediction with Visual-Languag.pdf:/home/wlong/Zotero/storage/5WKWLEUG/Tang et al. - 2023 - Task-Oriented Grasp Prediction with Visual-Languag.pdf:application/pdf},
+}
+
+@article{chen2021dynamic,
+  title={Dynamic strategy of keyframe selection with pd controller for vslam systems},
+  author={Chen, Weinan and Zhu, Lei and Lin, Xubin and He, Li and Guan, Yisheng and Zhang, Hong},
+  journal={IEEE/ASME Transactions on Mechatronics},
+  volume={27},
+  number={1},
+  pages={115--125},
+  year={2021},
+  publisher={IEEE}
+}
+
+@article{yang2022robust,
+  title={Robust UWB indoor localization for NLOS scenes via learning spatial-temporal features},
+  author={Yang, Bo and Li, Jun and Shao, Zhanpeng and Zhang, Hong},
+  journal={IEEE Sensors Journal},
+  volume={22},
+  number={8},
+  pages={7990--8000},
+  year={2022},
+  publisher={IEEE}
+}
+
+@article{lin2023robust,
+  title={Robust Data Association Against Detection Deficiency for Semantic SLAM},
+  author={Lin, Xubin and Ruan, Jiahao and Yang, Yirui and He, Li and Guan, Yisheng and Zhang, Hong},
+  journal={IEEE Transactions on Automation Science and Engineering},
+  year={2023},
+  publisher={IEEE}
+}
+
+@inproceedings{chen2022perspective,
+  title={Perspective phase angle model for polarimetric 3d reconstruction},
+  author={Chen, Guangcheng and He, Li and Guan, Yisheng and Zhang, Hong},
+  booktitle={European Conference on Computer Vision},
+  pages={398--414},
+  year={2022},
+  organization={Springer}
+}
+
+@inproceedings{zhou2022ndd,
+  title={NDD: A 3D Point Cloud Descriptor Based on Normal Distribution for Loop Closure Detection},
+  author={Zhou, Ruihao and He, Li and Zhang, Hong and Lin, Xubin and Guan, Yisheng},
+  booktitle={2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  pages={1328--1335},
+  year={2022},
+  organization={IEEE}
+}
+
+@inproceedings{elkerdawy2022fire,
+  title={Fire together wire together: A dynamic pruning approach with self-supervised mask prediction},
+  author={Elkerdawy, Sara and Elhoushi, Mostafa and Zhang, Hong and Ray, Nilanjan},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={12454--12463},
+  year={2022}
+}
+
+@article{an2022deep,
+  title={Deep Tri-Training for Semi-Supervised Image Segmentation},
+  author={An, Shan and Zhu, Haogang and Zhang, Jiaao and Ye, Junjie and Wang, Siliang and Yin, Jianqin and Zhang, Hong},
+  journal={IEEE Robotics and Automation Letters},
+  volume={7},
+  number={4},
+  pages={10097--10104},
+  year={2022},
+  publisher={IEEE}
+}
+
+@article{chen2021robustness,
+  title={Robustness improvement of using pre-trained network in visual odometry for on-road driving},
+  author={Chen, Weinan and Zhu, Lei and Loo, Shing Yan and Wang, Jiankun and Wang, Chaoqun and Meng, Max Q-H and Zhang, Hong},
+  journal={IEEE Transactions on Vehicular Technology},
+  volume={70},
+  number={12},
+  pages={12415--12426},
+  year={2021},
+  publisher={IEEE}
+}
+
+@article{chen2020ceb,
+  title={Ceb-map: Visual localization error prediction for safe navigation},
+  author={Chen, Weinan and Zhu, Lei and Wang, Chaoqun and He, Li and Meng, Max Q-H},
+  journal={IEEE Sensors Journal},
+  volume={21},
+  number={10},
+  pages={11769--11780},
+  year={2020},
+  publisher={IEEE}
+}
+
+@inproceedings{yang2021uvip,
+  title={UVIP: Robust UWB aided visual-inertial positioning system for complex indoor environments},
+  author={Yang, Bo and Li, Jun and Zhang, Hong},
+  booktitle={2021 IEEE International Conference on Robotics and Automation (ICRA)},
+  pages={5454--5460},
+  year={2021},
+  organization={IEEE}
+}
+
+@inproceedings{lv2021semantically,
+  title={Semantically guided multi-view stereo for dense 3d road mapping},
+  author={Lv, Mingzhe and Tu, Diantao and Tang, Xincheng and Liu, Yuqian and Shen, Shuhan},
+  booktitle={2021 IEEE International Conference on Robotics and Automation (ICRA)},
+  pages={11189--11195},
+  year={2021},
+  organization={IEEE}
+}
+
+@article{wen2021semantic,
+  title={Semantic visual SLAM in dynamic environment},
+  author={Wen, Shuhuan and Li, Pengjiang and Zhao, Yongjie and Zhang, Hong and Sun, Fuchun and Wang, Zhe},
+  journal={Autonomous Robots},
+  volume={45},
+  number={4},
+  pages={493--504},
+  year={2021},
+  publisher={Springer}
+}
+
+@inproceedings{lin2021robust,
+  title={Robust Improvement in 3D Object Landmark Inference for Semantic Mapping},
+  author={Lin, Xubin and Yang, Yirui and He, Li and Chen, Weinan and Guan, Yisheng and Zhang, Hong},
+  booktitle={2021 IEEE International Conference on Robotics and Automation (ICRA)},
+  pages={13011--13017},
+  year={2021},
+  organization={IEEE}
+}
+
+@article{yang2021resilient,
+  title={Resilient indoor localization system based on UWB and visual--inertial sensors for complex environments},
+  author={Yang, Bo and Li, Jun and Zhang, Hong},
+  journal={IEEE Transactions on Instrumentation and Measurement},
+  volume={70},
+  pages={1--14},
+  year={2021},
+  publisher={IEEE}
+}
+
+@article{shakeri2021polarimetric,
+  title={Polarimetric Monocular Dense Mapping Using Relative Deep Depth Prior [J]. 2021},
+  author={Shakeri, M and Loo, Y and Zhang, H},
+  journal={Shakeri M Loo Y Zhang H Polarimetric Monocular Dense Mapping Using Relative Deep Depth Prior},
+  year={2021}
+}
+
+@article{fu2020fastorb,
+  title={FastORB-SLAM: A fast ORB-SLAM method with Coarse-to-Fine descriptor independent keypoint matching},
+  author={Fu, Qiang and Yu, Hongshan and Wang, Xiaolong and Yang, Zhengeng and Zhang, Hong and Mian, Ajmal},
+  journal={arXiv preprint arXiv:2008.09870},
+  year={2020}
+}
+
+
+@article{wen2021dense,
+  title={Dense point cloud map construction based on stereo VINS for mobile vehicles},
+  author={Wen, Shuhuan and Liu, Xin and Zhang, Hong and Sun, Fuchun and Sheng, Miao and Fan, Shaokang},
+  journal={ISPRS Journal of Photogrammetry and Remote Sensing},
+  volume={178},
+  pages={328--344},
+  year={2021},
+  publisher={Elsevier}
+}
+
+@inproceedings{loo2021deeprelativefusion,
+  title={Deeprelativefusion: Dense monocular slam using single-image relative depth prediction},
+  author={Loo, Shing Yan and Mashohor, Syamsiah and Tang, Sai Hong and Zhang, Hong},
+  booktitle={2021 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  pages={6641--6648},
+  year={2021},
+  organization={IEEE}
+}
+
+@inproceedings{ting2021deep,
+  title={Deep snapshot HDR reconstruction based on the polarization camera},
+  author={Ting, Juiwen and Wu, Xuesong and Hu, Kangkang and Zhang, Hong},
+  booktitle={2021 IEEE International Conference on Image Processing (ICIP)},
+  pages={1769--1773},
+  year={2021},
+  organization={IEEE}
+}
+
+@article{wang2020real,
+  title={Real-time 3-D semantic scene parsing with LiDAR sensors},
+  author={Wang, Fei and Zhuang, Yan and Zhang, Hong and Gu, Hong},
+  journal={IEEE Transactions on Cybernetics},
+  volume={52},
+  number={3},
+  pages={1351--1363},
+  year={2020},
+  publisher={IEEE}
+}
+
+@article{shao2020learning,
+  title={Learning representations from skeletal self-similarities for cross-view action recognition},
+  author={Shao, Zhanpeng and Li, Youfu and Zhang, Hong},
+  journal={IEEE Transactions on Circuits and Systems for Video Technology},
+  volume={31},
+  number={1},
+  pages={160--174},
+  year={2020},
+  publisher={IEEE}
+}
