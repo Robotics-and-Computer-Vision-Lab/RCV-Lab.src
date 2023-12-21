@@ -22,7 +22,7 @@ content:
         position: right
         color: '#666'
         brightness: 0.7
-        media: home_slides/home_8.jpg
+        media: home_slides/home_8.png
     - title: 
     #   content: Fill
       align: center
@@ -30,7 +30,7 @@ content:
         position: right
         color: '#666'
         brightness: 0.7
-        media: home_slides/home_10.jpg
+        media: home_slides/home_10.png
     - title: 
     #   content: Fill
       align: center
@@ -38,7 +38,7 @@ content:
         position: right
         color: '#666'
         brightness: 0.7
-        media: home_slides/home_7.jpg
+        media: home_slides/home_7.png
     - title: 
     #   content: Fill
       align: center
