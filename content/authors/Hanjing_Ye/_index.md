@@ -1,5 +1,5 @@
 ---
-title: Hanjing YE
+title: Hanjing Ye
 weight: 11
 role: Ph.D. Student
 social:
