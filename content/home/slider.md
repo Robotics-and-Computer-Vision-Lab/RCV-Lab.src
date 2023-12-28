@@ -30,7 +30,7 @@ content:
         position: right
         color: '#666'
         brightness: 0.7
-        media: home_slides/home_10.png
+        media: home_slides/home_11.png
     - title: 
     #   content: Fill
       align: center
