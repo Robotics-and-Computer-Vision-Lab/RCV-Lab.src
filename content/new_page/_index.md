@@ -9,6 +9,7 @@ banner:
   caption: ''
   image: ''
 ---
-#### Dec 01, 2023
-- The laboratory invited Dr. Jia Pan, Associate Professor at the University of Hong Kong, to visit the laboratory and deliver a report titled "Chicken-or-Egg Problems in Urban Navigation."
-- **RCV Lab (433)**: One of our lab containing about xxx square meters of space.
+#### Dec 15, 2023
+- The laboratory invited Dr. Pan Jia, Associate Professor at the University of Hong Kong, to visit the laboratory and deliver a report titled "Chicken-or-Egg Problems in Urban Navigation."
+#### Dec 03, 2023
+- The doctoral student LIU Bingxi won the second prize in the Robot Embodied Intelligence Challenge at the 2023 China Software Conference.
