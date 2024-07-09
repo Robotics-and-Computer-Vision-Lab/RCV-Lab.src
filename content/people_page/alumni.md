@@ -20,6 +20,7 @@ active: true
 - Jiahao Ruan (2020 - 2023), Ubtech Robotics Corp
 - Yaling Pan (2020 - 2023)
 - Jieting ZHao (2021 - 2024), XPENG Motors
+- Wen Li (2021-2024), Meituan
 
 #### Undergraduate Students
 - Bingqing (Selina) Wan (2022), University of Toronto
