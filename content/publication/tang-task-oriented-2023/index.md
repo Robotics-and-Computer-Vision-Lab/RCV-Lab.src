@@ -34,7 +34,7 @@ image:
 projects: []
 publishDate: '2023-11-30T01:36:19.657571Z'
 publication_types:
-- '0'
+- '1'
 abstract: 'To perform household tasks, assistive robots receive commands in the form
   of user language instructions for tool manipulation. The initial stage involves
   selecting the intended tool (i.e., object grounding) and grasping it in a task-oriented
@@ -49,7 +49,9 @@ abstract: 'To perform household tasks, assistive robots receive commands in the 
   of the proposed method is further validated on an assistive robotic arm platform
   for grasping previously unseen kitchen tools given the task speciﬁcation. Our presentation
   video is available at: https://www.youtube.com/watch?v=e1wfYQPeAXU.'
-publication: '*arXiv*'
+# Publication name and optional abbreviated publication name.
+publication: '*2024 IEEE International Conference on Robotics and Automation (ICRA)*'
+publication_short: ''
 links:
 - name: URL
   url: http://arxiv.org/abs/2302.14355
