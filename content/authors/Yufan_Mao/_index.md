@@ -1,8 +1,10 @@
 ---
 title: Yufan Mao
-
 weight: 20
 role: Research Associate
+
+user_groups:
+  - Research Associates
 ---
 ### About Me
 I am a Research associate in RCV Lab, supervised by Prof. Hong Zhang, since 2024.
