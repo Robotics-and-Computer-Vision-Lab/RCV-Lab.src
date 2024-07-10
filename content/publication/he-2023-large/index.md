@@ -1,16 +1,13 @@
 ---
-title: 'Graspgpt: Leveraging semantic knowledge from a large language model for task-oriented
-  grasping'
+title: Large-scale graph sinkhorn distance approximation for resource-constrained
+  devices
 
 # Authors
 # A YAML list of author names
 # If you created a profile for a user (e.g. the default `admin` user at `content/authors/admin/`), 
 # write the username (folder name) here, and it will be replaced with their full name and linked to their profile.
 authors:
-- Chao Tang
-- Dehao Huang
-- Wenqi Ge
-- Weiyu Liu
+- Li He
 - Hong Zhang
 
 # Author notes (such as 'Equal Contribution')
@@ -20,7 +17,7 @@ author_notes: []
 date: '2023-01-01'
 
 # Date to publish webpage (NOT necessarily Bibtex publication's date).
-publishDate: '2024-07-10T09:00:52.869976Z'
+publishDate: '2024-07-10T09:00:52.874663Z'
 
 # Publication type.
 # A single CSL publication type but formatted as a YAML list (for Hugo requirements).
@@ -28,7 +25,7 @@ publication_types:
 - 2
 
 # Publication name and optional abbreviated publication name.
-publication: '*IEEE Robotics and Automation Letters*'
+publication: '*IEEE Transactions on Consumer Electronics*'
 publication_short: ''
 
 doi: ''

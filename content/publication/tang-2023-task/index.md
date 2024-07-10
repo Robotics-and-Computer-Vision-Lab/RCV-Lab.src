@@ -1,6 +1,5 @@
 ---
-title: 'Graspgpt: Leveraging semantic knowledge from a large language model for task-oriented
-  grasping'
+title: Task-oriented grasp prediction with visual-language inputs
 
 # Authors
 # A YAML list of author names
@@ -9,7 +8,7 @@ title: 'Graspgpt: Leveraging semantic knowledge from a large language model for 
 authors:
 - Chao Tang
 - Dehao Huang
-- Wenqi Ge
+- Lingxiao Meng
 - Weiyu Liu
 - Hong Zhang
 
@@ -20,15 +19,16 @@ author_notes: []
 date: '2023-01-01'
 
 # Date to publish webpage (NOT necessarily Bibtex publication's date).
-publishDate: '2024-07-10T09:00:52.869976Z'
+publishDate: '2024-07-10T09:00:52.884006Z'
 
 # Publication type.
 # A single CSL publication type but formatted as a YAML list (for Hugo requirements).
 publication_types:
-- 2
+- 1
 
 # Publication name and optional abbreviated publication name.
-publication: '*IEEE Robotics and Automation Letters*'
+publication: '*2023 IEEE/RSJ International Conference on Intelligent Robots and Systems
+  (IROS)*'
 publication_short: ''
 
 doi: ''

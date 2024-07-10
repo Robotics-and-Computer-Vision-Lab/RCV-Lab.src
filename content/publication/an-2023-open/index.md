@@ -1,17 +1,22 @@
 ---
-title: 'Graspgpt: Leveraging semantic knowledge from a large language model for task-oriented
-  grasping'
+title: An Open-Source Robotic Chinese Chess Player
 
 # Authors
 # A YAML list of author names
 # If you created a profile for a user (e.g. the default `admin` user at `content/authors/admin/`), 
 # write the username (folder name) here, and it will be replaced with their full name and linked to their profile.
 authors:
-- Chao Tang
-- Dehao Huang
-- Wenqi Ge
-- Weiyu Liu
-- Hong Zhang
+- Shan An
+- Guangfu Che
+- Jinghao Guo
+- Yanjie Xu
+- Guoxin Wang
+- Konstantinos A Tsintotas
+- Fukai Zhang
+- Junjie Ye
+- Changhong Fu
+- Haogang Zhu
+- ' others'
 
 # Author notes (such as 'Equal Contribution')
 # A YAML list of notes for each author in the above `authors` list
@@ -20,15 +25,16 @@ author_notes: []
 date: '2023-01-01'
 
 # Date to publish webpage (NOT necessarily Bibtex publication's date).
-publishDate: '2024-07-10T09:00:52.869976Z'
+publishDate: '2024-07-10T09:00:52.893347Z'
 
 # Publication type.
 # A single CSL publication type but formatted as a YAML list (for Hugo requirements).
 publication_types:
-- 2
+- 1
 
 # Publication name and optional abbreviated publication name.
-publication: '*IEEE Robotics and Automation Letters*'
+publication: '*2023 IEEE/RSJ International Conference on Intelligent Robots and Systems
+  (IROS)*'
 publication_short: ''
 
 doi: ''
