@@ -6,7 +6,7 @@ headless: true  # This file represents a page section.
 
 design:
   # Slide height is automatic unless you force a specific height (e.g. '400px')
-  slide_height: '30rem'
+  slide_height: '50rem'
   is_fullscreen: false
   # Automatically transition through slides?
   loop: false
