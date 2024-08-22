@@ -6,7 +6,7 @@ headless: true  # This file represents a page section.
 
 design:
   # Slide height is automatic unless you force a specific height (e.g. '400px')
-  slide_height: '50rem'
+  slide_height: '55rem'
   # slide_height: auto  # 允许幻灯片高度自动适应图片
   is_fullscreen: false
   # Automatically transition through slides?
@@ -25,23 +25,23 @@ content:
         brightness: 0.7
         media: home_slides/home_8.png
         
-    # - title: 
-    # #   content: Fill
-    #   align: center
-    #   background:
-    #     position: right
-    #     color: '#666'
-    #     brightness: 0.7
-    #     media: home_slides/home_11.png
+    - title: 
+    #   content: Fill
+      align: center
+      background:
+        position: right
+        color: '#666'
+        brightness: 0.7
+        media: home_slides/home_15(1).png
         
-    # - title: 
-    # #   content: Fill
-    #   align: center
-    #   background:
-    #     position: right
-    #     color: '#666'
-    #     brightness: 0.7
-    #     media: home_slides/home_7.png
+    - title: 
+    #   content: Fill
+      align: center
+      background:
+        position: right
+        color: '#666'
+        brightness: 0.7
+        media: home_slides/home_14.jpg
         
     # - title: 
     # #   content: Fill
