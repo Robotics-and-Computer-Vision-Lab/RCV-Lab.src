@@ -1,7 +1,7 @@
 ---
 title: Jiarui Xu
 
-weight: 30
+weight: 23
 role: M.Sc. Student
 user_groups:
   - M.Sc. Students
@@ -18,5 +18,5 @@ social:
     link: https://github.com/JefferyXeom
 ---
 ### About Me
-I am currently a post-graduate student in Robotics and Computer Vision  (RCV) Lab under the direction of Dr. Hong Zhang at Southern University  of Science and Technology (SUSTech). I was working on hardware  acceleration on image processing last year. Currently my research focues on robotics, SLAM and computer vision.
 
+I am currently a post-graduate student in Robotics and Computer Vision  (RCV) Lab under the direction of Dr. Hong Zhang at Southern University  of Science and Technology (SUSTech). I was working on hardware  acceleration on image processing last year. Currently my research focues on robotics, SLAM and computer vision.
