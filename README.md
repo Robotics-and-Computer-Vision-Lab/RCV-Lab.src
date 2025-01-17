@@ -1,48 +1,86 @@
-# [Hugo Research Group Theme](https://github.com/wowchemy/starter-hugo-research-group)
+# RCV-Lab Website Maintenance
 
-[![Screenshot](./preview.png)](https://wowchemy.com/hugo-themes/)
+## Maintainer
 
-The **Research Group Template** empowers your research group to easily create a beautiful website with a stunning homepage, news, academic publications, events, team profiles, and a contact form.
+- 2024: 童赞嘉
+- 2023: 董汶龙, 何毅城, 刘路瑶
+- 2022: 黄德豪, 唐潮
 
-️**Trusted by 250,000+ researchers, educators, and students.** Highly customizable via the integrated **no-code, widget-based Wowchemy page builder**, making every site truly personalized ⭐⭐⭐⭐⭐
+维护者需要熟悉 Ubuntu 系统命令, 以及 git, ssh 的基本操作
 
-[![Get Started](https://img.shields.io/badge/-Get%20started-ff4655?style=for-the-badge)](https://wowchemy.com/hugo-themes/)
-[![Discord](https://img.shields.io/discord/722225264733716590?style=for-the-badge)](https://discord.com/channels/722225264733716590/742892432458252370/742895548159492138)  
-[![Twitter Follow](https://img.shields.io/twitter/follow/wowchemy?label=Follow%20on%20Twitter)](https://twitter.com/wowchemy)
+## About Document
 
-Easily write technical content with plain text Markdown, LaTeX math, diagrams, RMarkdown, or Jupyter, and import publications from BibTeX.
+最初的文档存放于实验室的 NAS (可以询问管理员开设账号) 中, 2024 级对其进行了整理并只保留了部分内容
 
-[Check out the latest demo](https://research-group.netlify.app/) of what you'll get in less than 60 seconds, or [view the showcase](https://wowchemy.com/creators/).
+如发现有遗漏或错误的地方, 请查阅原文档进行修正
 
-The integrated [**Wowchemy**](https://wowchemy.com) website builder and CMS makes it easy to create a beautiful website for free. Edit your site in the CMS (or your favorite editor), generate it with [Hugo](https://github.com/gohugoio/hugo), and deploy with GitHub or Netlify. Customize anything on your site with widgets, light/dark themes, and language packs.
+## Debug Environment Configuration
 
-- 👉 [**Get Started**](https://wowchemy.com/hugo-themes/)
-- 📚 [View the **documentation**](https://wowchemy.com/docs/)
-- 💬 [Chat with the **Wowchemy research community**](https://discord.gg/z8wNYzb) or [**Hugo community**](https://discourse.gohugo.io)
-- ⬇️ **Automatically import citations from BibTeX** with the [Hugo Academic CLI](https://github.com/wowchemy/hugo-academic-cli)
-- 🐦 Share your new site with the community: [@wowchemy](https://twitter.com/wowchemy) [@GeorgeCushen](https://twitter.com/GeorgeCushen) [#MadeWithWowchemy](https://twitter.com/search?q=%23MadeWithWowchemy&src=typed_query)
-- 🗳 [Take the survey and help us improve #OpenSource](https://forms.gle/NioD9VhUg7PNmdCAA)
-- 🚀 [Contribute improvements](https://github.com/wowchemy/wowchemy-hugo-themes/blob/main/.github/contributing.md) or [suggest improvements](https://github.com/wowchemy/wowchemy-hugo-themes/issues)
-- ⬆️ **Updating?** View the [Update Guide](https://wowchemy.com/docs/hugo-tutorials/update/) and [Release Notes](https://github.com/wowchemy/wowchemy-hugo-themes/releases)
+克隆仓库到本地:
 
-## We ask you, humbly, to support this open source movement
+```bash
+git clone git@github.com:Robotics-and-Computer-Vision-Lab/RCV-Lab.src.git
+cd RCV-Lab.src
+chmod +x scripts/*
+```
 
-Today we ask you to defend the open source independence of the Wowchemy website builder and themes 🐧
+安装依赖 go 编译器, 以及网站框架 hugo:
 
-We're an open source movement that depends on your support to stay online and thriving, but 99.9% of our creators don't give; they simply look the other way.
+```bash
+scripts/initial.bash
+```
 
-### [❤️ Click here to become a GitHub Sponsor, unlocking awesome perks such as _exclusive academic templates and widgets_](https://github.com/sponsors/gcushen)
+在每次更新内容后, 运行以下命令启动本地服务器:
 
-## Demo credits
+```bash
+hugo server
+```
 
-Please replace the demo images with your own.
+打开 `http://localhost:1313` 检查网站是否正常显示; 确认后, 可以将更新推送到 github 仓库中
 
-- [Female scientist](https://unsplash.com/photos/uVnRa6mOLOM)
-- [2 Coders](https://unsplash.com/photos/kwzWjTnDPLk)
-- [Cafe](https://unsplash.com/photos/RnDGGnMEOao)
-- Blog posts
-  - https://unsplash.com/photos/AndE50aaHn4
-  - https://unsplash.com/photos/OYzbqk2y26c
-- Avatars
-  - https://unsplash.com/photos/5yENNRbbat4
-  - https://unsplash.com/photos/WNoLnJo7tS8
+```bash
+git add .
+git commit -m "编辑你所做的更改"
+git push origin master
+```
+
+## Update Website Content
+
+`content/authors/*/`
+
+- `_index.md`: 个人信息, 可以参考其他人的。最重要的是第二行的 `weight` 字段, 用于控制显示顺序, 数值越小越靠前; 从 24 级起统一使用入学年份作为 `weight` 的值
+- `avatar.jpg`: 1:1 头像图片, 无限制大小; 目前未发现 `avatar_formal.jpg` 的实际作用, 可忽略
+
+`content/publication/`: 需要定时更新, 步骤目前未知
+
+## Apply Changes to Website
+
+首先需要通过 ssh 登录到服务器, 服务器的信息如下:
+
+- Domain: [rcvlab.eee.sustech.edu.cn](https://rcvlab.eee.sustech.edu.cn/)
+- Other: 在 NAS 中查看 `/PUBLIC_SPACE/网站维护/server-info.json`
+
+进入服务器的 git 仓库, 并拉取最新更新:
+
+```bash
+cd /home/webdep/RCV-Lab.src/
+git pull origin master
+```
+
+运行以下命令编译并部署, 网站会在一两分钟后更新:
+
+```bash
+scripts/deploy.bash
+```
+
+Case: 网站显示错误
+
+- 可能是因为缓存的原因, 可以通过清理 `public` 文件夹来解决 (需要重新编译)
+- 如果仍不成功, 可以同时清理 `resources` 文件夹, 但这会让 `scripts/deploy.bash` 运行时间变长
+
+## Related Resources
+
+- 框架文档：[Fetching Title#myrp](https://wowchemy.com/docs/)
+- html 模板原出处：[wowchemy](https://github.com/wowchemy/wowchemy-hugo-themes/tree/v5.5.0/wowchemy)
+
+

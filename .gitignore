@@ -2,8 +2,10 @@
 .idea/
 
 # Hugo
-/resources/
+resources/
 public/
 assets/jsconfig.json
 
+# private
 RCV Lab 网站维护文档.md
+server-info.json
