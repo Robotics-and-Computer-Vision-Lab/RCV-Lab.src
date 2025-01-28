@@ -9,6 +9,8 @@ banner:
   caption: ''
   image: ''
 ---
+#### Jan 28, 2025
+- 4 papers from our laboratory have been accepted by ICRA (International Conference on Robotics and Automation).
 #### Dec 15, 2023
 - The laboratory invited Dr. Pan Jia, Associate Professor at the University of Hong Kong, to visit the laboratory and deliver a report titled "Chicken-or-Egg Problems in Urban Navigation."
 #### Dec 03, 2023

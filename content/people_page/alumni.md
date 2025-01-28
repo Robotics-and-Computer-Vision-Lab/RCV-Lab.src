@@ -19,7 +19,7 @@ active: true
 - Ruihao Zhou (2020 - 2023), China Tobacco
 - Jiahao Ruan (2020 - 2023), Ubtech Robotics Corp
 - Yaling Pan (2020 - 2023)
-- Jieting ZHao (2021 - 2024), XPENG Motors
+- Jieting Zhao (2021 - 2024), XPENG Motors
 - Wen Li (2021-2024), Meituan
 
 #### Undergraduate Students

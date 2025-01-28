@@ -51,7 +51,11 @@ git push origin master
 - `_index.md`: 个人信息, 可以参考其他人的。最重要的是第二行的 `weight` 字段, 用于控制显示顺序, 数值越小越靠前; 从 24 级起统一使用入学年份作为 `weight` 的值
 - `avatar.jpg`: 1:1 头像图片, 无限制大小; 目前未发现 `avatar_formal.jpg` 的实际作用, 可忽略
 
+`content/people_page/alumni.md`: 毕业生信息
+
 `content/publication/`: 需要定时更新, 步骤目前未知
+
+`content/new_page/_index.md`: 最新消息, 必要时更新
 
 ## Apply Changes to Website
 
