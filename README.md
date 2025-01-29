@@ -57,6 +57,8 @@ git push origin master
 
 `content/new_page/_index.md`: 最新消息, 必要时更新
 
+`assets/media/home_slides`: 主页轮播图
+
 ## Apply Changes to Website
 
 首先需要通过 ssh 登录到服务器, 服务器的信息如下:
@@ -86,5 +88,3 @@ Case: 网站显示错误
 
 - 框架文档：[Fetching Title#myrp](https://wowchemy.com/docs/)
 - html 模板原出处：[wowchemy](https://github.com/wowchemy/wowchemy-hugo-themes/tree/v5.5.0/wowchemy)
-
-
