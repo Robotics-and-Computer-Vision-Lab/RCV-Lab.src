@@ -10,6 +10,7 @@ design:
 active: true
 ---
 ## Alumni
+
 #### Post-Doctoral Fellows
 - Weinan Chen (2020 - 2022), Guangdong University of Technology
 
@@ -24,6 +25,9 @@ active: true
 
 #### Undergraduate Students
 - Bingqing (Selina) Wan (2022), University of Toronto
+- Jiayi Yang (2024), University of Tokyo
+
 #### Research Associates
 - Xinkai Jiang (2021 - 2022), Karlsruher Institut für Technologie
-- Renxiang Xiao (2023.01 - 2023.12), Harbin Institute of Technology，Shenzhen
+- Renxiang Xiao (2023.01 - 2023.12), Harbin Institute of Technology, Shenzhen
+- Qijin She (2024.04 - 2024.08), Hong Kong University Of Science and Technology
