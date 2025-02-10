@@ -31,7 +31,7 @@ chmod +x scripts/*
 安装依赖 go 编译器, 以及网站框架 hugo:
 
 ```bash
-scripts/initial.bash
+sudo scripts/initial.bash
 ```
 
 在每次更新内容后, 运行以下命令启动本地服务器:
