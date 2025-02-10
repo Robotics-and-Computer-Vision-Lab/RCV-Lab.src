@@ -1,10 +1,6 @@
 ---
-# Documentation: https://wowchemy.com/docs/managing-content/
-
 title: 'Mapping While Following: 2D LiDAR SLAM in Indoor Dynamic Environments with
   a Person Tracker'
-subtitle: ''
-summary: ''
 authors:
 - Hanjing Ye
 - Guangcheng Chen
@@ -12,30 +8,11 @@ authors:
 - Li He
 - Yisheng Guan
 - Hong Zhang
-tags: []
-categories: []
 date: '2021-01-01'
-lastmod: 2023-11-30T09:36:19+08:00
-featured: false
-draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
-image:
-  caption: ''
-  focal_point: ''
-  preview_only: false
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects: []
-publishDate: '2023-11-30T01:36:19.447586Z'
+publishDate: '2025-02-10T14:43:19.859098Z'
 publication_types:
 - '1'
+publication: '*2021 IEEE International Conference on Robotics and Biomimetics (ROBIO)*'
 abstract: '2D LiDAR SLAM (Simultaneous Localization and Mapping) is widely used in
   indoor environments due to its stability and flexibility. However, its mapping procedure
   is usually operated by a joystick in static environments, while indoor environments
@@ -48,5 +25,4 @@ abstract: '2D LiDAR SLAM (Simultaneous Localization and Mapping) is widely used 
   with two classic 2D-LiDAR-based SLAM algorithms in indoor environments. The results
   show that this framework is effective in handling dynamic objects and reducing the
   mapping error.'
-publication: '*2021 IEEE International Conference on Robotics and Biomimetics (ROBIO)*'
 ---

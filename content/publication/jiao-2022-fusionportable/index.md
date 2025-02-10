@@ -1,10 +1,6 @@
 ---
-# Documentation: https://wowchemy.com/docs/managing-content/
-
 title: 'Fusionportable: A multi-sensor campus-scene dataset for evaluation of localization
   and mapping accuracy on diverse platforms'
-subtitle: ''
-summary: ''
 authors:
 - Jianhao Jiao
 - Hexiang Wei
@@ -17,30 +13,12 @@ authors:
 - Xupeng Xie
 - Huaiyang Huang
 - ' others'
-tags: []
-categories: []
 date: '2022-01-01'
-lastmod: 2023-11-30T09:36:19+08:00
-featured: false
-draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
-image:
-  caption: ''
-  focal_point: ''
-  preview_only: false
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects: []
-publishDate: '2023-11-30T01:36:19.235335Z'
+publishDate: '2025-02-10T14:43:01.600061Z'
 publication_types:
 - '1'
+publication: '*2022 IEEE/RSJ International Conference on Intelligent Robots and Systems
+  (IROS)*'
 abstract: 'Combining multiple sensors enables a robot to maximize its perceptual awareness
   of environments and enhance its robustness to external disturbance, crucial to robotic
   navigation. This paper proposes the FusionPortable benchmark, a complete multi-sensor
@@ -57,8 +35,6 @@ abstract: 'Combining multiple sensors enables a robot to maximize its perceptual
   evaluation. We additionally evaluate state-of-theart SLAM approaches and identify
   their limitations. The dataset, consisting of raw sensor measurements, ground truth,
   calibration data, and evaluated algorithms, will be released.'
-publication: '*2022 IEEE/RSJ International Conference on Intelligent Robots and Systems
-  (IROS)*'
 links:
 - name: URL
   url: http://arxiv.org/abs/2208.11865

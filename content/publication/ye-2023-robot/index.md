@@ -1,9 +1,5 @@
 ---
-# Documentation: https://wowchemy.com/docs/managing-content/
-
 title: Robot person following under partial occlusion
-subtitle: ''
-summary: ''
 authors:
 - Hanjing Ye
 - Jieting Zhao
@@ -11,30 +7,11 @@ authors:
 - Weinan Cherr
 - Li He
 - Hong Zhang
-tags: []
-categories: []
 date: '2023-01-01'
-lastmod: 2023-11-30T09:36:19+08:00
-featured: false
-draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
-image:
-  caption: ''
-  focal_point: ''
-  preview_only: false
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects: []
-publishDate: '2023-11-30T01:36:19.587666Z'
+publishDate: '2025-02-10T14:43:21.425049Z'
 publication_types:
 - '1'
+publication: '*2023 IEEE International Conference on Robotics and Automation (ICRA)*'
 abstract: Robot person following (RPF) is a capability that supports many useful human-robot-interaction
   (HRI) applications. However, existing solutions to person following often assume
   full observation of the tracked person. As a consequence, they cannot track the
@@ -47,5 +24,4 @@ abstract: Robot person following (RPF) is a capability that supports many useful
   person-following dataset show that, even under partial occlusion, the proposed method
   can still locate the person more reliably than the existing SOTA methods. As well,
   the application of our method is demonstrated in real experiments on a mobile robot.
-publication: '*2023 IEEE International Conference on Robotics and Automation (ICRA)*'
 ---

@@ -1,10 +1,6 @@
 ---
-# Documentation: https://wowchemy.com/docs/managing-content/
-
-title: "Cloud Learning-based Meets Edge Model-based: Robots Don't Need to Build All\
-  \ the Submaps dItself"
-subtitle: ''
-summary: ''
+title: "Cloud Learning-based Meets Edge Model-based: Robots Don't Need to Build All
+  the Submaps dItself"
 authors:
 - Weinan Chen
 - Dehao Huang
@@ -14,30 +10,11 @@ authors:
 - Jingwen Yu
 - Jiamin Zheng
 - Hong Zhang
-tags: []
-categories: []
 date: '2023-01-01'
-lastmod: 2023-11-30T09:36:19+08:00
-featured: false
-draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
-image:
-  caption: ''
-  focal_point: ''
-  preview_only: false
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects: []
-publishDate: '2023-11-30T01:36:18.969941Z'
+publishDate: '2025-02-10T14:42:52.171960Z'
 publication_types:
 - '2'
+publication: '*IEEE Transactions on Vehicular Technology*'
 abstract: In recent years, signiﬁcant progress has been made in learning-based VSLAM
   (Visual Simultaneous Localization and Mapping). Cloud-based VSLAM is a promising
   solution for meeting the computational demands of learning-based methods in mobile
@@ -53,5 +30,4 @@ abstract: In recent years, signiﬁcant progress has been made in learning-based
   also evaluate the runtime performance of communication and computation on a real
   robot platform, which suggests that the multiple submap VSLAM framework can effectively
   release computation load while satisfying both robustness and realtime requirements.
-publication: '*IEEE Transactions on Vehicular Technology*'
 ---

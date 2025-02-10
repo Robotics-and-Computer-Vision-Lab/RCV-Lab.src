@@ -57,7 +57,14 @@ git push origin master
 
 `content/people_page/alumni.md`: 毕业生信息, 每年 7～9 月更新一次
 
-`content/publication/`: 有新投稿的论文时更新, 详见 https://docs.hugoblox.com/reference/content-types/#publications
+`content/publication/`: 有新投稿的论文时更新
+
+- Reference: https://docs.hugoblox.com/reference/content-types/#publications
+- WARN: 已发现 academic 命令可能在部分系统无法运行, 但不会报错, 请检查是否成功转换 bib 文件
+- STEP
+  - 第一次运行安装: `pip install academic`
+  - 运行以下命令转换其中所有的 bib: `python scripts/cvt-bib.py <src>`
+  - 复制 `<src>/runs` 中的所有文件到 `content/publication/` 中
 
 ## Apply Changes to Website
 
@@ -83,6 +90,10 @@ Case: 网站显示错误
 
 - 可能是因为缓存的原因, 可以通过清理 `public` 文件夹来解决 (需要重新编译)
 - 如果仍不成功, 可以同时清理 `resources` 文件夹, 但这会让 `scripts/deploy.bash` 运行时间变长
+
+Case: `... invalid version: git fetch -f origin ...`
+
+- 无法解释的做法: 删除仓库文件夹, 重新克隆仓库并重新编译
 
 ## Related Resources
 

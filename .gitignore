@@ -6,6 +6,9 @@ resources/
 public/
 assets/jsconfig.json
 
+# Python
+runs/
+
 # private
 RCV Lab 网站维护文档*
 server-info.json

@@ -1,9 +1,5 @@
 ---
-# Documentation: https://wowchemy.com/docs/managing-content/
-
 title: Deep Tri-Training for Semi-Supervised Image Segmentation
-subtitle: ''
-summary: ''
 authors:
 - Shan An
 - Haogang Zhu
@@ -12,30 +8,9 @@ authors:
 - Siliang Wang
 - Jianqin Yin
 - Hong Zhang
-tags: []
-categories: []
 date: '2022-01-01'
-lastmod: 2023-11-30T09:36:20+08:00
-featured: false
-draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
-image:
-  caption: ''
-  focal_point: ''
-  preview_only: false
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects: []
-publishDate: '2023-11-30T01:36:20.155159Z'
+publishDate: '2025-02-10T14:42:47.387188Z'
 publication_types:
 - '2'
-abstract: ''
 publication: '*IEEE Robotics and Automation Letters*'
 ---

@@ -1,10 +1,6 @@
 ---
-# Documentation: https://wowchemy.com/docs/managing-content/
-
 title: Keyframe Selection with Information Occupancy Grid Model for Long-term Data
   Association
-subtitle: ''
-summary: ''
 authors:
 - Weinan Chen
 - Hanjing Ye
@@ -13,30 +9,13 @@ authors:
 - Changfei Fu
 - Yonggang Chen
 - Hong Zhang
-tags: []
-categories: []
 date: '2022-10-01'
-lastmod: 2023-11-30T09:36:19+08:00
-featured: false
-draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
-image:
-  caption: ''
-  focal_point: ''
-  preview_only: false
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects: []
-publishDate: '2023-11-30T01:36:19.377228Z'
+publishDate: '2025-02-10T14:42:55.327366Z'
 publication_types:
 - '1'
+publication: '*2022 IEEE/RSJ International Conference on Intelligent Robots and Systems
+  (IROS)*'
+doi: 10.1109/IROS47612.2022.9981050
 abstract: As the basics of Visual Simultaneous Localization And Mapping (VSLAM), keyframes
   play an essential role. In previous works, keyframes are selected according to a
   series of view change-based strategies for short-term data association (STDA). However,
@@ -51,9 +30,6 @@ abstract: As the basics of Visual Simultaneous Localization And Mapping (VSLAM),
   Also, the statistical explainability of the deep descriptor is provided. The proposed
   keyframe selection strategy can improve LTDA and tracking precision, especially
   in situations with repeated observations and loop-closures.
-publication: '*2022 IEEE/RSJ International Conference on Intelligent Robots and Systems
-  (IROS)*'
-doi: 10.1109/IROS47612.2022.9981050
 links:
 - name: URL
   url: https://ieeexplore.ieee.org/document/9981050/
