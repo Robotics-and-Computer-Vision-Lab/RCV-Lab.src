@@ -1,7 +1,7 @@
 ---
 title: Dehao Huang
-weight: 20
-role: M.Sc. Student
+weight: 24
+role: Ph.D. Student
 social:
   - icon: envelope 
     icon_pack: fas
@@ -20,17 +20,16 @@ social:
     link: https://red0orange.plus/
 
 user_groups:
-  - M.Sc. Students
+  - Ph.D. Students
 ---
 ### About Me
-I am a MSE student in Robotics and Computer Vision Lab under the direction of Prof. Hong Zhang at Southern University of Science and Technology since 09/2022. I received the B.E. degree in information engineering from the South China Normal University, in 06/2022. My research focuses on robotic visual perception.
+I am a Ph.D. student in Robotics and Computer Vision Lab under the direction of Prof. Hong Zhang at Southern University of Science and Technology since 09/2024. I received the B.E. degree in information engineering from the South China Normal University, in 06/2022. My research focuses on visual robotic grasping and manipulation.
 
 ### Research
 {{< youtube mhQnRS0X_RA "Research Introduction">}}
 
-My research interests focus on visual scene understanding for robotic manipulation, including mapping and planning: 
-1. Object-level semantic mapping 
-2. Learning-based motion planning 
-3. Tabletop object rearrangement
+My research interests focus on visual robotic grasping and manipulation, with a particular emphasis on the following areas:
+1. Imitation learning for robotic manipulation.
+2. Task-oriented robotic grasping. 
 
 
