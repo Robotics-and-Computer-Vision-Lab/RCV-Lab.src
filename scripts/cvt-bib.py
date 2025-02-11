@@ -13,18 +13,19 @@ if __name__ == '__main__':
     parser.add_argument("src", type=str, help="bib file folder")
     args = parser.parse_args()
 
-    # 跳转到源文件夹
-    os.chdir(args.src)
-    dst = Path("runs")
+    # 目标文件夹
+    dst = Path("runs").absolute()
     try:
         dst.rmdir()
     except FileNotFoundError:
         pass
 
-    # 生成目标文件夹下的文件
+    # 查找 bib 文件
+    os.chdir(args.src)
     bibs = [p for p in Path().rglob("*.bib")]
     print(*bibs, sep="\n")
-    input("\nCheck the bib files, press any key to continue...")
+    print(f"\nTotal bib files: {len(bibs)}\nOutput folder: {dst}")
+    input(f"\nCheck the above information and press any key to continue...")
 
     # 执行命令
     for f in bibs:
@@ -38,4 +39,8 @@ if __name__ == '__main__':
         for i, v in enumerate(reps):
             content = content.replace(f"{key}:\n- {v}", f"{key}:\n- '{i + 1}'", 1)
         f.write_text(content)
+
+    # 输出成功转换的比例
+    rate = len(list(dst.iterdir())) / len(bibs)
+    print(f"\nSuccess rate: {rate:.2%}")
 

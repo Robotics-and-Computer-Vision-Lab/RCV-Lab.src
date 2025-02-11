@@ -67,15 +67,16 @@ git push origin master
 - WARN: 已发现 academic 命令可能在部分系统无法运行, 但不会报错, 请检查是否成功转换 bib 文件
 - STEP
   - 环境准备: `pip install academic`
-  - 转换文件夹的所有 bib: `python scripts/cvt-bib.py <src>`
-  - 复制 `<src>/runs` 中的所有文件到 `content/publication/`
+  - 下载新论文的 bib, 创建 `bibs` 并放在其中
+  - 转换文件夹的所有 bib: `python scripts/cvt-bib.py bibs`
+  - 复制 `runs` 中的所有文件到 `content/publication/`
 
 ## Apply Changes to Website
 
 首先需要通过 ssh 登录到服务器, 服务器的信息如下:
 
 - Domain: [rcvlab.eee.sustech.edu.cn](https://rcvlab.eee.sustech.edu.cn/)
-- Other: 在 NAS 中查看 `/PUBLIC_SPACE/网站维护/server-info.json`
+- [Other](server-info.json): 在 NAS 中查看 `/PUBLIC_SPACE/网站维护/server-info.json`
 
 进入服务器的 git 仓库, 并拉取最新更新:
 

@@ -1,5 +1,6 @@
 # IDEs
 .idea/
+.vscode/
 
 # Hugo
 resources/
@@ -7,6 +8,7 @@ public/
 assets/jsconfig.json
 
 # Python
+bibs/
 runs/
 
 # private
