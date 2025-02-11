@@ -50,7 +50,7 @@ git push origin master
 
 ## Update Website Content
 
-`assets/media/home_slides`: 主页轮播图, 必要时更新
+`assets/media/home_slides/`: 主页轮播图, 必要时更新
 
 `content/authors/*/`: 实验室成员, 每年 7～9 月更新一次, 增加并删减
 
