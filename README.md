@@ -90,6 +90,11 @@ git pull origin master
 sudo scripts/deploy.bash
 ```
 
+Case: 电脑 / 手机端显示异常
+
+- 可能是因为缓存的原因, 可以通过清理 `public` 文件夹来解决 (需要重新编译)
+- 如果仍不成功, 可以同时清理 `resources` 文件夹, 但这会让编译时间变长
+
 Case: `... invalid version: git fetch -f origin ...`
 
 - 似乎行得通的做法: 删除仓库文件夹, 重新克隆仓库并重新编译
