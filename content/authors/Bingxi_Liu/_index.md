@@ -1,7 +1,7 @@
 ---
 title: Bingxi Liu
 weight: 11
-role: Ph.D. Student
+role: Ph.D. Candidate
 social:
   - icon: envelope 
     icon_pack: fas

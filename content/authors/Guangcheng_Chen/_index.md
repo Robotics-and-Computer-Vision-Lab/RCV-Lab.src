@@ -2,7 +2,7 @@
 title: Guangcheng Chen
 
 weight: 20
-role: Ph.D. Student
+role: Ph.D. Candidate
 user_groups:
   - Ph.D. Students
 
