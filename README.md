@@ -34,6 +34,12 @@ chmod +x scripts/*
 sudo scripts/initial.bash
 ```
 
+在 `.bashrc` 文件中添加：
+
+```
+export PATH=$PATH:/usr/local/go/bin
+```
+
 在每次更新内容后, 运行以下命令启动本地服务器:
 
 ```bash
