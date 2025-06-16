@@ -50,7 +50,7 @@ hugo server
 
 ```bash
 git add .
-git commit -m "编辑你所做的更改"
+git commit -m "Edit your commit message here"
 git push origin master
 ```
 
@@ -62,6 +62,8 @@ git push origin master
 
 - `_index.md`: 个人信息, 最重要的是第二行的 `weight` 字段, 用于控制显示顺序, 数值越小越靠前; 从 24 级起统一使用入学年份作为 `weight` 的值
 - `avatar.jpg`: 1:1 头像图片, 无限制大小; 目前未发现 `avatar_formal.jpg` 的实际作用, 可忽略
+
+`content/equipments/*/`: 实验室设备, 采购新设备时更新
 
 `content/new_page/_index.md`: 最新消息, 必要时更新
 
@@ -76,6 +78,8 @@ git push origin master
   - 下载新论文的 bib, 创建 `bibs` 并放在其中
   - 转换文件夹的所有 bib: `python scripts/cvt-bib.py bibs`
   - 复制 `runs` 中的所有文件到 `content/publication/`
+
+`content/research`: 研究方向, 必要时更新
 
 ## Apply Changes to Website
 

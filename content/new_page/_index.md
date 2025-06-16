@@ -10,6 +10,8 @@ banner:
   image: ''
 ---
 #### Jan 28, 2025
+- 3 papers from our laboratory have been accepted by IROS.
+#### Jan 28, 2025
 - 4 papers from our laboratory have been accepted by ICRA.
 #### Dec 15, 2023
 - The laboratory invited Dr. Pan Jia, Associate Professor at the University of Hong Kong, to visit the laboratory and deliver a report titled "Chicken-or-Egg Problems in Urban Navigation."
