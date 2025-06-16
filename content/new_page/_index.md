@@ -10,7 +10,7 @@ banner:
   image: ''
 ---
 #### Jan 28, 2025
-- 3 papers from our laboratory have been accepted by IROS.
+- 4 papers from our laboratory have been accepted by IROS.
 #### Jan 28, 2025
 - 4 papers from our laboratory have been accepted by ICRA.
 #### Dec 15, 2023
