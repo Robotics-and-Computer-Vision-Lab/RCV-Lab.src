@@ -7,7 +7,7 @@ weight: 90
 design:
   columns: '1'
 # Activate this widget? true/false
-active: true
+active: false
 ---
 ## List
 #### Lab
