@@ -6,6 +6,9 @@ social:
   - icon: envelope 
     icon_pack: fas
     link: mailto:hohozhanyu@qq.com
+  - icon: graduation-cap 
+    icon_pack: fas
+    link: https://scholar.google.com/citations?hl=zh-CN&user=O0M3wWQAAAAJ
   - icon_pack: fab
     icon: github
     link: https://github.com/hoho-WHU
@@ -14,14 +17,8 @@ user_groups:
   - Ph.D. Students
 ---
 ### About Me
-My name is John (Yu Zhan). I am a first-year Master's student in RCV Lab under the supervision of Prof. Hong Zhang. I previously graduated from Wuhan University in China with a B.E. in Microeletronics. My research interests involve human-robot interaction and robot navigation. Currently I'm working on an interesting problem called robot person following.
+I am a Ph.D. Student at  RCV Lab SUSTech & Pengcheng Laboratory,  advised by Prof. Hong Zhang and Prof. Wenjun Xu. I previously graduated from WHU with a B.E. in Microeletronics and from SUSTech with a M.E. in EE. My research interests involve human-robot interaction, robot person-following and human perception from a robot's view.
 
 ### Research
-![research](authors_research/yu_zhan.gif "Research Introduction")
-
-I'm researching on robot person following. Specifically, it's about how to make a UGV robustly recognize and follow a designated person. I currently use an omnidirectional camera to enhance the robot's perception. 
-
-
-
-
+![research](Our_Method_360.gif "Research Introduction")
 
