@@ -44,6 +44,17 @@ Dr. Li He is currently a Research Associate Professor in the Department of Elect
 
 **Vision and/or LiDAR SLAM**: In IROS 2016, Dr. He proposed M2DP, a global point cloud descriptor for loop closure detection. This work was one of the start-up works in LiDAR applications for mobile robot and auto-driving, and is one of the most cited works in LiDAR loop closure detection. He has many works on loop closure detection and LiDAR+Visual SLAM since then, including TIV, TASE, RAL, TMech, Robotica, ICRA and IROS. Considering Dr. He’s contributions on SLAM, He was appointed as the recipient of The Pearl River Talent Recruitment Program of Guangdong.
 
+
+### Honor
+- Second Prize, National LiDAR Conference Point Cloud Intelligent Analysis Competition, 2025
+- Outstanding Winner, Satellite Navigation and Positioning Science and Technology Award, 2024
+- Second Prize, Civil Aviation Science and Technology Award, 2024
+- Second Prize, Invention Entrepreneurship Innovation Award, 2022
+- Recipient of The Pearl River Talent Recruitment Program of Guangdong, China, 2019
+- Shenzhen Peacock Plan (Type C), China, 2021
+- Member of Innovative and Enterprising Team under The Sailing Program of Guangdong, China, 2017
+
+
 ### Publications
 **Large-scale Data Clustering**
 - Li He, and Hong Zhang. Two-Step Nystrom Sampling for Large-scale Kernel Approximation. IEEE Transactions on Big Data, to appear.
@@ -82,13 +93,3 @@ Dr. Li He is currently a Research Associate Professor in the Department of Elect
 - Zhuang Dai, Xinghong Huang, Weinan Chen, Li He and Hong Zhang. A Comparison of CNN-Based and Hand-Crafted Keypoint Descriptors. ICRA 2019.
 - Xinghong Huang, Zhuang Dai, Weinan Chen, Li He and Hong Zhang. Improving Keypoint Matching Using a Landmark-Based Image Representation. ICRA 2019.
 - X. Lin, W. Chen, Li He, et al. Improving Robustness of Monocular VT&R System with Multiple Hypothesis, ROBIO 2017. (Finalist of T. J. Tarn Best Paper) 
-
-
-### Honor
-- Second Prize, National LiDAR Conference Point Cloud Intelligent Analysis Competition, 2025
-- Outstanding Winner, Satellite Navigation and Positioning Science and Technology Award, 2024
-- Second Prize, Civil Aviation Science and Technology Award, 2024
-- Second Prize, Invention Entrepreneurship Innovation Award, 2022
-- Recipient of The Pearl River Talent Recruitment Program of Guangdong, China, 2019
-- Shenzhen Peacock Plan (Type C), China, 2021
-- Member of Innovative and Enterprising Team under The Sailing Program of Guangdong, China, 2017
